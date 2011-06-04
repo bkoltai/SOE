@@ -1,0 +1,498 @@
+/* Reset */
+* { 
+	margin: 0px;
+}
+
+html{
+  background: #E7E7E7;
+}
+img{ 
+	border: 0px;
+}
+p{
+	line-height: 1.5em;
+}
+
+body {
+  background-color: #E7E7E7;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+a img {
+  border: none;
+}
+
+a { color: black; }
+a:visited { color: black; }
+a:hover { color: gray;}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+/* General Page Layout */
+#page-wrapper{
+  width: 10px;
+  border: 1px solid gray;
+  border-top: none;
+  margin: 0 auto;
+  background: white;
+}
+div#content{
+  padding: 15px;
+}
+
+ul{
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+}
+
+.clear {
+	clear: both;
+}
+
+.separator {
+	width: 90%;
+	border-top: 1px solid gray;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Homepage */
+#mainContent {
+	float: left;
+	width: 720px;
+	margin: 0 auto;
+}
+
+#welcome{
+	margin-bottom: 10px;
+	}
+	#welcome h1{
+		margin-bottom: 10px;
+}
+
+#news{
+  margin: 10px 0px;
+}
+
+#rss h2 a{
+	color: #0066CC;
+	text-decoration: none;
+}
+.rssArticle{
+	margin: 15px 0px;
+	}
+	.rssArticle h2{
+		font-size: 1.2em;
+	}
+	.rssArticle a{
+		color: #0066CC;
+		text-decoration: none;
+	}
+/* Header */
+#header{
+	background: #572700; /* old browsers */
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+}
+#logo{
+	background: #BED9f1; /* old browsers */
+	background: -moz-linear-gradient(top, #7db9e8 1%, #BED9f1 99%); /* firefox */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7db9e8), color-stop(99%,#BED9f1)); /* webkit */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1E5799',GradientType=0 ); /* ie */
+}
+
+#nav-bar{
+  padding: 3px 0px;
+}
+
+a#logo{
+	height: 100px;
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+}
+
+#links{
+  display: block;
+  float: left;
+  padding-top: 3px;
+}
+ul#links li{
+	margin-left: 45px;
+	float: left;
+}
+ul#links li a{
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+ul#links li a:hover{
+	text-decoration: underline;
+}
+
+div#search{
+	float: right;
+	margin-right: 50px;
+}
+
+#sort_options{
+	background: #C0C0C0;
+	width: 240px;
+	padding: 10px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+  }
+
+#select_dept{
+	float: left;
+	margin-bottom: 10px;
+  }
+  #select_dept h3{  
+  	text-align: center;
+  }
+	
+/* Footer */
+#footer{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+/* Search */
+#searchResults{
+	width: 860px;
+	margin: 0 auto;
+}
+	#searchResults h1{
+		margin-bottom: 20px;
+	}
+
+#projectResults {
+  margin-top: 30px;
+ }
+ #projectResults li {
+   list-style: none;
+ }
+/* Reseracher Row format */
+#sidebar{
+	float: right;
+	width: 260px;
+	}
+	#sidebar h2{
+		text-align: center;
+	}
+	#newFacultyContainer{
+		padding: 10px;
+		border: 1px solid #999;
+		margin-top: 5px;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		}
+		.newFaculty{
+			margin-top: 10px;
+		}
+		.newFaculty img{
+			max-width: 100px;
+			max-height: 100px;
+			float: left;
+			margin-right: 10px;
+		}
+
+div#researchers{
+	padding: 10px;
+	width: 480px;
+	margin: 0 auto;
+	margin-right: 20px;
+	float: left;
+	}
+	div.researcherRow{
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		border: 2px dashed gray;
+		margin: 10px auto;
+		padding: 10px;
+		overflow: auto;
+	}
+	div.researcherRow img{
+		max-height: 150px;
+		max-width: 150px;
+		float: left;
+		margin-right: 10px;
+		border: 3px solid black;
+	}
+	div.researcherRow h2{
+		display: inline;
+	}
+	div.researcherRow h1{
+		display: inline;
+	}
+	div.researcherRow div.researcherInfo {
+		padding: 10px;
+		}
+		div.researcherRow div.researcherInfo h1{
+			margin-bottom: 10px;
+		}
+	div.researcherRow div.researcherProjects {
+	}
+
+
+/* Tables */
+table{
+	border-collapse: collapse;
+}
+table tr{
+	border-bottom: .5px solid gray;
+}
+
+table tr td{
+	padding: 3px;
+}
+
+
+
+th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+th .asc {
+
+}
+
+th .desc {
+
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding: 20px 40px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+#flash_notice, #flash_error, #flash_alert {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error, #flash_alert {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+.error_messages {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  font-size: 12px;
+}
+
+.error_messages h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error_messages p {
+  margin: 8px 10px;
+}
+
+.error_messages ul {
+  margin: 0;
+}
+
+
+/* -------------------------------------------------------------------------------------------------
+
+It's *strongly* suggested that you don't modify this file.  Instead, load a new stylesheet after
+this one in your layouts (eg formtastic_changes.css) and override the styles to suit your needs.
+This will allow you to update formtastic.css with new releases without clobbering your own changes.
+
+This stylesheet forms part of the Formtastic Rails Plugin
+(c) 2008 Justin French
+
+--------------------------------------------------------------------------------------------------*/
+
+
+/* NORMALIZE AND RESET - obviously inspired by Yahoo's reset.css, but scoped to just form.formtastic
+--------------------------------------------------------------------------------------------------*/
+form.formtastic, form.formtastic ul, form.formtastic ol, form.formtastic li, form.formtastic fieldset, form.formtastic legend, form.formtastic input, form.formtastic textarea, form.formtastic select, form.formtastic p { margin:0; padding:0; }
+form.formtastic fieldset { border:0; }
+form.formtastic em, form.formtastic strong { font-style:normal; font-weight:normal; }
+form.formtastic ol, form.formtastic ul { list-style:none; }
+form.formtastic abbr, form.formtastic acronym { border:0; font-variant:normal; }
+form.formtastic input, form.formtastic textarea, form.formtastic select { font-family:inherit; font-size:inherit; font-weight:inherit; }
+form.formtastic input, form.formtastic textarea, form.formtastic select { font-size:100%; }
+form.formtastic legend { white-space:normal; color:#000; }
+
+
+/* SEMANTIC ERRORS
+--------------------------------------------------------------------------------------------------*/
+form.formtastic ul.errors { color:#cc0000; margin:0.5em 0 1.5em 25%; list-style:square; }
+form.formtastic ul.errors li { padding:0; border:none; display:list-item; }
+
+
+/* FIELDSETS & LISTS
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset { overflow:auto; } /* clearing contained floats */
+form.formtastic fieldset.inputs { }
+form.formtastic fieldset.buttons { padding-left:25%; }
+form.formtastic fieldset ol { }
+form.formtastic fieldset.buttons li { float:left; padding-right:0.5em; }
+
+/* INPUT LIs
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li { padding:0.5em 0; margin-top:-0.5em; margin-bottom:1em; } /* padding and negative margin juggling is for Firefox */
+form.formtastic fieldset > ol > li { overflow:auto; } /* clearing contained floats */
+
+form.formtastic fieldset > ol > li.required { }
+form.formtastic fieldset > ol > li.optional { }
+form.formtastic fieldset > ol > li.error { }
+  
+
+/* LABELS
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li label { display:block; width:25%; float:left; padding-top:.2em; }
+form.formtastic fieldset > ol > li > li label { line-height:100%; padding-top:0; }
+form.formtastic fieldset > ol > li > li label input { line-height:100%; vertical-align:middle; margin-top:-0.1em;}
+
+
+/* NESTED FIELDSETS AND LEGENDS (radio, check boxes and date/time inputs use nested fieldsets)
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li fieldset { position:relative; }
+form.formtastic fieldset > ol > li fieldset legend { position:absolute; width:95%; padding-top:0.1em; left: 0px; }
+form.formtastic fieldset > ol > li fieldset legend span { position:absolute; }
+form.formtastic fieldset > ol > li fieldset legend.label label { position:absolute; }
+form.formtastic fieldset > ol > li fieldset ol { float:left; width:74%; margin:0; padding:0 0 0 25%; }
+form.formtastic fieldset > ol > li fieldset ol li { padding:0; border:0; }
+
+
+/* INLINE HINTS
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li p.inline-hints { color:#666; margin:0.5em 0 0 25%; }
+
+
+/* INLINE ERRORS
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li p.inline-errors { color:#cc0000; margin:0.5em 0 0 25%; }
+form.formtastic fieldset > ol > li ul.errors { color:#cc0000; margin:0.5em 0 0 25%; list-style:square; }
+form.formtastic fieldset > ol > li ul.errors li { padding:0; border:none; display:list-item; }
+
+
+/* STRING, NUMERIC, PASSWORD, EMAIL, URL, PHONE & SEARCH OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.string input, 
+form.formtastic fieldset > ol > li.password input, 
+form.formtastic fieldset > ol > li.numeric input,
+form.formtastic fieldset > ol > li.email input,
+form.formtastic fieldset > ol > li.url input,
+form.formtastic fieldset > ol > li.phone input,
+form.formtastic fieldset > ol > li.search input { width:72%; }
+
+form.formtastic fieldset > ol > li.string input[size], 
+form.formtastic fieldset > ol > li.password input[size], 
+form.formtastic fieldset > ol > li.numeric input[size],
+form.formtastic fieldset > ol > li.email input[size],
+form.formtastic fieldset > ol > li.url input[size],
+form.formtastic fieldset > ol > li.phone input[size],
+form.formtastic fieldset > ol > li.search input[size] { width:auto; max-width:72%; }
+
+
+/* TEXTAREA OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.text textarea { width:72%; }
+form.formtastic fieldset > ol > li.text textarea[cols] { width:auto; max-width:72%; }
+
+
+/* HIDDEN OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset ol li.hidden { display:none; }
+
+/* BOOLEAN OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.boolean label { padding-left:25%; width:auto; }
+form.formtastic fieldset > ol > li.boolean label input { margin:0 0.5em 0 0.2em; }
+
+
+/* RADIO OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.radio { }
+form.formtastic fieldset > ol > li.radio fieldset { overflow:visible; }
+form.formtastic fieldset > ol > li.radio fieldset ol { margin-bottom:-0.5em; }
+form.formtastic fieldset > ol > li.radio fieldset ol li { margin:0.1em 0 0.5em 0; overflow:visible; }
+form.formtastic fieldset > ol > li.radio fieldset ol li label { float:none; width:100%; }
+form.formtastic fieldset > ol > li.radio fieldset ol li label input { margin-right:0.2em; }
+
+
+/* CHECK BOXES (COLLECTION) OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.check_boxes { }
+form.formtastic fieldset > ol > li.check_boxes fieldset { overflow:visible; }
+form.formtastic fieldset > ol > li.check_boxes fieldset ol { margin-bottom:-0.5em; }
+form.formtastic fieldset > ol > li.check_boxes fieldset ol li { margin:0.1em 0 0.5em 0; overflow:visible; }
+form.formtastic fieldset > ol > li.check_boxes fieldset ol li label { float:none; width:100%; }
+form.formtastic fieldset > ol > li.check_boxes fieldset ol li label input { margin-right:0.2em; }
+
+
+/* DATE & TIME OVERRIDES
+--------------------------------------------------------------------------------------------------*/
+form.formtastic fieldset > ol > li.date fieldset ol li,
+form.formtastic fieldset > ol > li.time fieldset ol li,
+form.formtastic fieldset > ol > li.datetime fieldset ol li { float:left; width:auto; margin:0 .3em 0 0; }
+
+form.formtastic fieldset > ol > li.date fieldset ol li label,
+form.formtastic fieldset > ol > li.time fieldset ol li label,
+form.formtastic fieldset > ol > li.datetime fieldset ol li label { display:none; }
+
+form.formtastic fieldset > ol > li.date fieldset ol li label input, 
+form.formtastic fieldset > ol > li.time fieldset ol li label input, 
+form.formtastic fieldset > ol > li.datetime fieldset ol li label input { display:inline; margin:0; padding:0;  }
+
+
+/* -------------------------------------------------------------------------------------------------
+
+Load this stylesheet after formtastic.css in your layouts to override the CSS to suit your needs.
+This will allow you to update formtastic.css with new releases without clobbering your own changes.
+
+For example, to make the inline hint paragraphs a little darker in color than the standard #666:
+
+form.formtastic fieldset > ol > li p.inline-hints { color:#333; }
+
+HINT:
+The following style may be *conditionally* included for improved support on older versions of IE(<8)
+form.formtastic fieldset ol li fieldset legend { margin-left: -6px;}
+
+--------------------------------------------------------------------------------------------------*/

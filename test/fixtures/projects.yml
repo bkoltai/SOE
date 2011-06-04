@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  agency: MyString
+  researcher_id: 1
+  dept: MyString
+
+two:
+  title: MyString
+  agency: MyString
+  researcher_id: 1
+  dept: MyString

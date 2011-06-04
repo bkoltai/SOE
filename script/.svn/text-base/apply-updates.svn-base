@@ -1,0 +1,5 @@
+#!/bin/bash
+#update files
+svn up
+#restart server
+touch /r/soeresearch/public_html/soeresearch/tmp/restart.txt

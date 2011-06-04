@@ -1,0 +1,6 @@
+<div id="sort">
+<%= render :partial => '/shared/dept' %>
+<%= render :partial => '/shared/centers' %>
+</div>
+
+	

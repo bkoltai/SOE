@@ -1,0 +1,12 @@
+<% @title = "Admin" %>
+<h2>Currently logged in as <%= @current_user.name %></h2>
+<ul>
+<li><%= link_to "Faculty database", researchers_path %></li>
+<li><%= link_to "Centers database", centers_path %></li>
+<li><%= link_to "Projects database", projects_path %></li>
+<li><%= link_to "Students database", students_path %></li>
+<li><%= link_to "Administrative Users", users_path %></li>
+<li><%= link_to "News Blog", posts_path %></li>
+</ul>
+<p><%= link_to "Main page", :root %></p>
+<p><%= link_to "Logout", logout_path, :method => :delete %></p>

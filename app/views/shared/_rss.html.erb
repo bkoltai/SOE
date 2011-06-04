@@ -1,0 +1,9 @@
+<% @rss[0..5].each do |item| %>
+<div class='rssArticle'>
+	<% if item['pub_date'].to_date > Constants::RECENT_STORIES_THRESHOLD %>
+	<h2><%= link_to_if valid_link?(item['link']), item['title'], item['link'], :target => '_blank' %></h2>
+	<p><%= item['pub_date'].to_date.inspect %></p>
+	<%= raw(item['description']) %>
+	<% end %>
+</div>
+<% end %>

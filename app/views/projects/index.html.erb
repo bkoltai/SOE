@@ -1,0 +1,17 @@
+<% @title = "Projects" %>
+
+<h1>Current Research Projects</h1>
+
+<% if session[:user_id] %>
+  <h3><%= link_to 'New Project', new_project_path %></h3>
+  <br/><h3><%= link_to 'Upload project CSV', upload_projects_path %></h3>
+<% end %>
+
+<div id='projects'>
+  <%= render 'projects' %>
+</div>
+
+<br />
+<% if session[:user_id] %>
+        <%= link_to 'New Project', new_project_path %>
+<% end %>

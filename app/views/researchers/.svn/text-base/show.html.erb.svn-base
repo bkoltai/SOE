@@ -1,0 +1,38 @@
+<p>
+  <b>Dept:</b>
+  <%= @researcher.dept %>
+</p>
+
+<p>
+  <b>Fname:</b>
+  <%= @researcher.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @researcher.lname %>
+</p>
+
+<p>
+  <b>Recent:</b>
+  <%= @researcher.recent %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @researcher.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @researcher.phone %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @researcher.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_researcher_path(@researcher) %> |
+<%= link_to 'Back', researchers_path %>

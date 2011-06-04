@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="clatin01">
+	<table_structure name="soe_users">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
+		<field Field="username" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="email" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="password" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="created_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<field Field="updated_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<key Table="soe_users" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" />
+		<options Name="soe_users" Engine="InnoDB" Version="10" Row_format="Compact" Rows="1" Avg_row_length="16384" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="2" Create_time="2010-04-16 00:02:22" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 736256 kB" />
+	</table_structure>
+	<table_data name="soe_users">
+	<row>
+		<field name="id">1</field>
+		<field name="username">soeadmin</field>
+		<field name="email">christopher.latina@tufts.edu</field>
+		<field name="password">57b2ad99044d337197c0c39fd3823568ff81e48a</field>
+		<field name="created_at">2010-04-16 00:02:22</field>
+		<field name="updated_at">2010-04-16 00:02:22</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

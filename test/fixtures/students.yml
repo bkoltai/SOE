@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  dept: MyString
+  fname: MyText
+  lname: MyText
+  degree: MyString
+  advisor_fname: MyString
+  advisor_lname: MyString
+  research: MyText
+  link: MyString
+  photo: MyString
+
+two:
+  dept: MyString
+  fname: MyText
+  lname: MyText
+  degree: MyString
+  advisor_fname: MyString
+  advisor_lname: MyString
+  research: MyText
+  link: MyString
+  photo: MyString

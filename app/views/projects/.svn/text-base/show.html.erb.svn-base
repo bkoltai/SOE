@@ -1,0 +1,23 @@
+<p>
+  <b>Title:</b>
+  <%= @project.title %>
+</p>
+
+<p>
+  <b>Agency:</b>
+  <%= @project.agency %>
+</p>
+
+<p>
+  <b>Researcher:</b>
+  <%= @project.researcher.lname %>
+</p>
+
+<p>
+  <b>Dept:</b>
+  <%= @project.dept %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

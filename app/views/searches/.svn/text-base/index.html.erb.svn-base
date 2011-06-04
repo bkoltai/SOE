@@ -1,0 +1,18 @@
+<% @title = 'Search' %>
+<div id='searchResults'>
+  <% if !@researcherResults.empty? %>
+	<div id='researchersResults'>
+		<h1>Researcher Results</h1>
+		<%= render @researcherResults %>
+	</div>
+	<% end %>
+	<% if !@projectResults.empty? %>
+	<div id='projectResults'>
+		<h1>Project Results</h1>
+		<%= render @projectResults %>
+	</div>
+	<% end %>
+	<% if @researcherResults.empty? and @projectResults.empty? %>
+	<h1 style='text-align: center;'>No Results</h1>
+	<% end %>
+</div>

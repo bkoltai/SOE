@@ -1,0 +1,30 @@
+<table>
+  <tr>
+    <th><%= sortable "fname", "First name" %></th>
+    <th><%= sortable "lname", "Last name" %></th>
+    <th><%= sortable "dept", "Department" %></th>
+    <th><%= sortable "description" %></th>
+    <th><%= sortable "email" %></th>
+    <th><%= sortable "phone" %></th>
+    <th><%= sortable "photo" %></th>
+    <th><%= sortable "recent" %></th>
+  </tr>
+
+<% @researchers.each do |researcher| %>
+  <tr>
+    <td><%= researcher.fname %></td>
+    <td><%= researcher.lname %></td>
+    <td><%= researcher.dept %></td>
+    <td><%= truncate researcher.description %></td>
+    <td><%= truncate researcher.email %></td>
+    <td><%= researcher.phone %></td>
+    <td><%= truncate researcher.photo %></td>
+    <td><%= researcher.recent %></td>
+	<% if session[:user_id] %>
+    	<td><%= link_to 'Show', researcher %></td>
+    	<td><%= link_to 'Edit', edit_researcher_path(researcher) %></td>
+    	<td><%= link_to 'Destroy', researcher, :confirm => 'Are you sure?', :method => :delete %></td>
+	<% end %>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,1 @@
+mysql -u root -p soe_dev < /Users/BenjiKoltai/Desktop/Rails_Projects/NEW-soe-dev/db/backups/mysql/sql-backup-2011-03-11.sql 

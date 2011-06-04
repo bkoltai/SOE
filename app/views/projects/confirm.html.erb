@@ -1,0 +1,28 @@
+<h1>Confirm Projects Upload</h1>
+<p>There are <strong><%= @count %></strong> new projects to replace the current database.</p><br />
+<p>Please review and confirm the list of projects to replace the current project database. If fields are mixed up, check that the CSV entries are in the order:</p>
+<pre>name,dept,title,agency</pre>
+<br /><p>If individual entries need to be modified or removed, click confirm and then make the modifications from the main projects page.</p>
+<br />
+
+<%= button_to "Confirm", :action => :confirm %>
+<%= button_to "Cancel", upload_projects_path, {:method => :get} %>
+<div class="clear"></div>
+<%=  %>
+
+<table>
+    <tr>
+      <th>Title</th>
+      <th>Agency</th>
+      <th>Dept</th>
+      <th>Researcher</th>
+    </tr>
+  <% ConfirmProject.all.each do |project| %>
+    <tr>
+      <td><%= project.title %></td>
+      <td><%= project.agency %></td>
+      <td><%= project.dept %></td>
+      <td><%= project.researcher.lname if project.researcher %></td>
+    </tr>
+  <% end %>
+</table>

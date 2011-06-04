@@ -1,0 +1,23 @@
+<% @title = "Home" %>
+
+<div id="mainContent">
+	<div id="welcome">
+		<h1>Welcome!</h1>
+		<p>Welcome to the Tufts School of Engineering Research web page.  Tufts Engineering program encompasses some 70 faculty and six departments (Biomedical, Chemical, and Biological, Mechanical, Civil and Environmental, Computer Science, and Electrical and Computer) as well as the Gordon Institute for Engineering Management &amp; Entrepreneurship.   Here you will find information concerning and links to the faculty, their interests, and the latest research projects along with some of the latest news generated from research work in the school as well as a calendar of upcoming seminars, thesis presentations, and other lectures of interest. 
+		</p>
+	</div>
+	<hr/>
+	<div id="news">
+	  <div id='rss'>
+    	<h2>Engineering <%= link_to 'News', posts_path %></h2>
+		  <%= render :partial => 'shared/rss' %>
+	  </div>
+	</div>
+	<div class="clear"></div>
+</div>
+<%= render :partial => 'shared/sidebar' %>
+
+
+
+
+		

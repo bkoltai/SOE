@@ -1,0 +1,1969 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="clatin01">
+	<table_structure name="soe_students">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
+		<field Field="dept" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="fname" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="lname" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="degree" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="advisor_fname" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="advisor_lname" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="research" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="link" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="photo" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="created_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<field Field="updated_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<key Table="soe_students" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="139" Null="" Index_type="BTREE" Comment="" />
+		<options Name="soe_students" Engine="InnoDB" Version="10" Row_format="Compact" Rows="139" Avg_row_length="117" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="140" Create_time="2010-04-16 03:25:53" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 736256 kB" />
+	</table_structure>
+	<table_data name="soe_students">
+	<row>
+		<field name="id">1</field>
+		<field name="dept">BME</field>
+		<field name="fname">Charles</field>
+		<field name="lname">Banos</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Catherine</field>
+		<field name="advisor_lname">Kuo</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="dept">BME</field>
+		<field name="fname">Amanda</field>
+		<field name="lname">Baryshyan</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="dept">BME</field>
+		<field name="fname">Evangelia</field>
+		<field name="lname">Bellas</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Soft Tissue Reconstruction</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="dept">BME</field>
+		<field name="fname">Jason</field>
+		<field name="lname">Bressner</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Biodegradable Communications System Phase II</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="dept">BME</field>
+		<field name="fname">Jeffrey</field>
+		<field name="lname">Brown</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Catherine</field>
+		<field name="advisor_lname">Kuo</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="dept">BME</field>
+		<field name="fname">Debbie</field>
+		<field name="lname">Chen</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Sergio</field>
+		<field name="advisor_lname">Fantini</field>
+		<field name="research">Biological Mechanism of Fast Near-Inrared Signals in Peripheral Nerves</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="dept">BME</field>
+		<field name="fname">Thomas</field>
+		<field name="lname">Dabrowski</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Biodegradable Communications System Phase II</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">8</field>
+		<field name="dept">BME</field>
+		<field name="fname">Roberto</field>
+		<field name="lname">Elia</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Robert</field>
+		<field name="advisor_lname">Peattie</field>
+		<field name="research"> Engineering an Angiogenic Cardiac Patch</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">9</field>
+		<field name="dept">BME</field>
+		<field name="fname">Violet</field>
+		<field name="lname">Finley</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Catherine</field>
+		<field name="advisor_lname">Kuo</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">10</field>
+		<field name="dept">BME</field>
+		<field name="fname">Dean</field>
+		<field name="lname">Glettig</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Craniofacial Tissue Engineering</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">11</field>
+		<field name="dept">BME</field>
+		<field name="fname">Cherry</field>
+		<field name="lname">Greiner</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Irene</field>
+		<field name="advisor_lname">Georgakoudi</field>
+		<field name="research">Optical Biomarkers for the non-invasive detection of early cancer</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">12</field>
+		<field name="dept">BME</field>
+		<field name="fname">Jonathan</field>
+		<field name="lname">Kluge</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">13</field>
+		<field name="dept">BME</field>
+		<field name="fname">Reynald</field>
+		<field name="lname">Lescarbeau</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Functionalized Silk Materials</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">14</field>
+		<field name="dept">BME</field>
+		<field name="fname">Joseph</field>
+		<field name="lname">Marturano</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Catherine</field>
+		<field name="advisor_lname">Kuo</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">15</field>
+		<field name="dept">BME</field>
+		<field name="fname">Eleanor</field>
+		<field name="lname">Pritchard</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Long Term Drug Release for Epilepsy Treatment</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">16</field>
+		<field name="dept">BME</field>
+		<field name="fname">Michaela</field>
+		<field name="lname">Reagan</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Screening Angiogenic Potential of Various Cell Lines Using the CAM Assay</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">17</field>
+		<field name="dept">BME</field>
+		<field name="fname">Rebecca</field>
+		<field name="lname">Scholl</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Functionalized Silk Materials</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">18</field>
+		<field name="dept">BME</field>
+		<field name="fname">Sejuti</field>
+		<field name="lname">Sengupta</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">In Vitro 3D Tissue Model for Kidney Disease Responses</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">19</field>
+		<field name="dept">BME</field>
+		<field name="fname">Sarah</field>
+		<field name="lname">Sundelacruz</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Stern Family Prof Engineering</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">20</field>
+		<field name="dept">BME</field>
+		<field name="fname">Amelia</field>
+		<field name="lname">Thomas</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Catherine</field>
+		<field name="advisor_lname">Kuo</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">21</field>
+		<field name="dept">BME</field>
+		<field name="fname">Konstantinos</field>
+		<field name="lname">Tsioris</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Biodegradable Communications System Phase II</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">22</field>
+		<field name="dept">BME</field>
+		<field name="fname">Marie</field>
+		<field name="lname">Tupaj</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Tissue Engineering Research Center - Year 6</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">23</field>
+		<field name="dept">BME</field>
+		<field name="fname">Joanna</field>
+		<field name="lname">Xylas</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Irene</field>
+		<field name="advisor_lname">Georgakoudi</field>
+		<field name="research">CAREER: Non-invasive modalities for optical imaging of cell-matrix interactions in engineered tissues</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">24</field>
+		<field name="dept">BME</field>
+		<field name="fname">Yang</field>
+		<field name="lname">Yu</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Sergio</field>
+		<field name="advisor_lname">Fantini</field>
+		<field name="research">Biological Mechanism of Fast Near-Inrared Signals in Peripheral Nerves</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">25</field>
+		<field name="dept">BME</field>
+		<field name="fname">Feng</field>
+		<field name="lname">Zheng</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Robert</field>
+		<field name="advisor_lname">Jacob</field>
+		<field name="research">Human Computer Interaction</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">26</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Ali</field>
+		<field name="lname">Akanda</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Shafiqul</field>
+		<field name="advisor_lname">Islam</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">27</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Matthew</field>
+		<field name="lname">Becker</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Kurt</field>
+		<field name="advisor_lname">Pennell</field>
+		<field name="research">Modeling and Synthesis of High Mobility Nanoparticles for Advanced Oil Recovery</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">28</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Iman</field>
+		<field name="lname">Behmanesh</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Babak</field>
+		<field name="advisor_lname">Moaveni</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">29</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Ali</field>
+		<field name="lname">Boroumand</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">C. Andrew</field>
+		<field name="advisor_lname">Ramsburg</field>
+		<field name="research">Multiphase Porous Media</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">30</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Amanda M</field>
+		<field name="lname">Chassot</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Shafiqul</field>
+		<field name="advisor_lname">Islam</field>
+		<field name="research">Variations and Trends in Fall Precipitation Over the Central United States: Issues of Physical Mechanisms, Circulation Anomalies and Boundary Forces</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">31</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Jessica</field>
+		<field name="lname">Englehart</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Kurt</field>
+		<field name="advisor_lname">Pennell</field>
+		<field name="research">Fate and Transport of Metal based nanoparticles in the subsurface</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">32</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Rhiannon</field>
+		<field name="lname">Ervin</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Linda</field>
+		<field name="advisor_lname">Abriola</field>
+		<field name="research">NAPL Source Zones</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">33</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Byeongju</field>
+		<field name="lname">Jung</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Anne</field>
+		<field name="advisor_lname">Gardulski</field>
+		<field name="research">Geology Gift</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">34</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Antarpreet</field>
+		<field name="lname">Jutla</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Shafiqul</field>
+		<field name="advisor_lname">Islam</field>
+		<field name="research">Variations and Trends in Fall Precipitation Over the Central United States: Issues of Physical Mechanisms, Circulation Anomalies and Boundary Forces</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">35</field>
+		<field name="dept">CEE</field>
+		<field name="fname">James</field>
+		<field name="lname">Kaklamanos</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Diane</field>
+		<field name="advisor_lname">Souvaine</field>
+		<field name="research">S-STEM Scholarships</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">36</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Mary</field>
+		<field name="lname">McCormick</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Christopher</field>
+		<field name="advisor_lname">Swan</field>
+		<field name="research">GRS Supplement to: The Role of Service-Learning: Improving Engineering Education; Attracting Women Into Engineering</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">37</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Katherine</field>
+		<field name="lname">Merriam</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Linda</field>
+		<field name="advisor_lname">Abriola</field>
+		<field name="research">Development and opitimization of targeted nanoscale iron delivery methods for treatment of NAPL source zones</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">38</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Eugene</field>
+		<field name="lname">Morgan</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Laurie</field>
+		<field name="advisor_lname">Baise</field>
+		<field name="research">Offshore Geohazards</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">39</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Thomas</field>
+		<field name="lname">Oommen</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Laurie</field>
+		<field name="advisor_lname">Baise</field>
+		<field name="research">CAREER: Integrated research and education in regional evaluation of seismic hazards (REU)</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">40</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Christopher</field>
+		<field name="lname">Paetsch</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">41</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Bindu</field>
+		<field name="lname">Panikkar</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Gute</field>
+		<field name="research">Assessing and Controlling Occupational Risks to Immigrant Populations, Somerville</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">42</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Eric</field>
+		<field name="lname">Pheifer</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Masoud</field>
+		<field name="advisor_lname">Sanayei</field>
+		<field name="research">Tobin Bridge: Structural Modeling, Analysis, and Health Monitoring</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">43</field>
+		<field name="dept">CEE</field>
+		<field name="fname">John</field>
+		<field name="lname">Phelps</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Masoud</field>
+		<field name="advisor_lname">Sanayei</field>
+		<field name="research">Whatever happened to long term bridge design?</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">44</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Sandeep</field>
+		<field name="lname">Sathyamoorthy</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">C. Andrew</field>
+		<field name="advisor_lname">Ramsburg</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">45</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Jesse</field>
+		<field name="lname">Sipple</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Masoud</field>
+		<field name="advisor_lname">Sanayei</field>
+		<field name="research">Whatever happened to long term bridge design?</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">46</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Allison</field>
+		<field name="lname">St. Vincent</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">John</field>
+		<field name="advisor_lname">Durant</field>
+		<field name="research">CAFEH scope</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">47</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Douglas</field>
+		<field name="lname">Walker</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Linda</field>
+		<field name="advisor_lname">Abriola</field>
+		<field name="research">NAPL Source Zones</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">48</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Zhenying</field>
+		<field name="lname">Zhang</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Steven</field>
+		<field name="advisor_lname">Chapra</field>
+		<field name="research">Great Lakes Total Phosphorous Models and Loads: a 15 year update</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">49</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Fredy</field>
+		<field name="lname">Afif</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Christos</field>
+		<field name="advisor_lname">Georgakis</field>
+		<field name="research">Systems Research Institute</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">50</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Brett</field>
+		<field name="lname">Boghigian</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Blaine</field>
+		<field name="advisor_lname">Pfeifer</field>
+		<field name="research">Metabolic Engineering for Microbial Taxol Biosynthesis</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">51</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Matthew</field>
+		<field name="lname">Boucher</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">A rational approach to the evaluation of supported metals and surface alloys as oxidation and reforming catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">52</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Katherine</field>
+		<field name="lname">Carson</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Kyongbum</field>
+		<field name="advisor_lname">Lee</field>
+		<field name="research">Acquisition of an LC-MS Facility for Research and Education in Metabolic Systems Biology</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">53</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Andrew</field>
+		<field name="lname">Fiordalis</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Christos</field>
+		<field name="advisor_lname">Georgakis</field>
+		<field name="research">Systems Research Institute</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">54</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Daniel</field>
+		<field name="lname">Hines</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Long Term Drug Release for Epilepsy Treatment</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">55</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Ning</field>
+		<field name="lname">Lai</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Kyongbum</field>
+		<field name="advisor_lname">Lee</field>
+		<field name="research">Acquisition of an LC-MS Facility for Research and Education in Metabolic Systems Biology</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">56</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Foteini</field>
+		<field name="lname">Makrydaki</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Christos</field>
+		<field name="advisor_lname">Georgakis</field>
+		<field name="research">Systems Research Institute</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">57</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Brian</field>
+		<field name="lname">Ricks</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">Nanostructured, Metal-ion modified ceria and zirconia oxidation catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">58</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Hai</field>
+		<field name="lname">Shi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Kyongbum</field>
+		<field name="advisor_lname">Lee</field>
+		<field name="research">Acquisition of an LC-MS Facility for Research and Education in Metabolic Systems Biology</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">59</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Gautham</field>
+		<field name="lname">Sridharan</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Soha</field>
+		<field name="advisor_lname">Hassoun</field>
+		<field name="research">Multi Resolution Partitioning and Kinetic Function Estimation for Dynamic Biochemical network Model Development</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">60</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Lin</field>
+		<field name="lname">Sun</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Tissue Engineering Research Center - Year 6</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">61</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Ioannis</field>
+		<field name="lname">Valsamakis</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">Nanostructured, Metal-ion modified ceria and zirconia oxidation catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">62</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Yuan</field>
+		<field name="lname">Wang</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">Nanocatalysis for Propulsion Applications</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">63</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Nan</field>
+		<field name="lname">Yi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">Nanostructured, Metal-ion modified ceria and zirconia oxidation catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">64</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Yanping</field>
+		<field name="lname">Zhai</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">Nanostructured, Metal-ion modified ceria and zirconia oxidation catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">65</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Haoran</field>
+		<field name="lname">Zhang</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Blaine</field>
+		<field name="advisor_lname">Pfeifer</field>
+		<field name="research">Metabolic Engineering for Microbial Taxol Biosynthesis</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">66</field>
+		<field name="dept">CHE</field>
+		<field name="fname">Branko</field>
+		<field name="lname">Zugic</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Maria</field>
+		<field name="advisor_lname">Flytzani-Stephanopoulos</field>
+		<field name="research">A rational approach to the evaluation of supported metals and surface alloys as oxidation and reforming catalysts</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">67</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Edward</field>
+		<field name="lname">Aftandilian</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Samuel</field>
+		<field name="advisor_lname">Guyer</field>
+		<field name="research">Efficiently checking heap invariants using the garbage collector</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">68</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Bilal</field>
+		<field name="lname">Ahmed</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Linda</field>
+		<field name="advisor_lname">Abriola</field>
+		<field name="research">NAPL Source Zones</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">69</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Ryan</field>
+		<field name="lname">Crouser</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Marina</field>
+		<field name="advisor_lname">Bers</field>
+		<field name="research">Tangible Programming in Early Childhood Revisiting Development Assumptions through New Technologies</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">70</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Noah</field>
+		<field name="lname">Daniels</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Lenore</field>
+		<field name="advisor_lname">Cowen</field>
+		<field name="research">Computational Methods for Wrapping and Threading Remote Protein Homologs</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">71</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Andrew</field>
+		<field name="lname">Fox</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Donna</field>
+		<field name="advisor_lname">Slonim</field>
+		<field name="research">Evaluating Biological networks by Mining public data</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">72</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Mashhood</field>
+		<field name="lname">Ishaque</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Diane</field>
+		<field name="advisor_lname">Souvaine</field>
+		<field name="research">Geometric Data Structures</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">73</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Saket</field>
+		<field name="lname">Joshi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Roni</field>
+		<field name="advisor_lname">Khardon</field>
+		<field name="research">Eager: First Order Decision Diagrams for Relational Markov Decision Processes</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">74</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Alexandra</field>
+		<field name="lname">Lauric</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Sarah</field>
+		<field name="advisor_lname">Frisken</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">75</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Saeed</field>
+		<field name="lname">Majidi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Carla</field>
+		<field name="advisor_lname">Brodley</field>
+		<field name="research">III-CXT-Medium: Interdisciplinary Machine Learning Research and Education</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">76</field>
+		<field name="dept">COMP</field>
+		<field name="fname">John</field>
+		<field name="lname">Mazella</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Gina</field>
+		<field name="advisor_lname">Siesing</field>
+		<field name="research">Computer Svc Tlr</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">77</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Umaa</field>
+		<field name="lname">Rebbapragada</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Carla</field>
+		<field name="advisor_lname">Brodley</field>
+		<field name="research">Discovering Unexpected Planets and Other Astonomical Oddities</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">78</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Nathan</field>
+		<field name="lname">Ricci</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Samuel</field>
+		<field name="advisor_lname">Guyer</field>
+		<field name="research">Efficiently checking heap invariants using the garbage collector</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">79</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Sai</field>
+		<field name="lname">Tang</field>
+		<field name="degree">BS</field>
+		<field name="advisor_fname">Hwa</field>
+		<field name="advisor_lname">Chang</field>
+		<field name="research">CitySense</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">80</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Erin</field>
+		<field name="lname">Treacy</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Robert</field>
+		<field name="advisor_lname">Jacob</field>
+		<field name="research">Human Computer Interaction</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">81</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Ehsan</field>
+		<field name="lname">Ullah</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Soha</field>
+		<field name="advisor_lname">Hassoun</field>
+		<field name="research">Multi Resolution Partitioning and Kinetic Function Estimation for Dynamic Biochemical network Model Development</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">82</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Amelio</field>
+		<field name="lname">Vazquez-Reina</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Eric</field>
+		<field name="advisor_lname">Miller</field>
+		<field name="research">Harvard IIC Support for Amelio Vasquez</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">83</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Yuyang</field>
+		<field name="lname">Wang</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Carla</field>
+		<field name="advisor_lname">Brodley</field>
+		<field name="research">III-CXT-Medium: Interdisciplinary Machine Learning Research and Education</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">84</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Douglas</field>
+		<field name="lname">Weaver</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Soha</field>
+		<field name="advisor_lname">Hassoun</field>
+		<field name="research">Multi Resolution Partitioning and Kinetic Function Estimation for Dynamic Biochemical network Model Development</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">85</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Xintao</field>
+		<field name="lname">Wei</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Donna</field>
+		<field name="advisor_lname">Slonim</field>
+		<field name="research">Transitional Bioinformatics for Human Developmental Genomics</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">86</field>
+		<field name="dept">COMP</field>
+		<field name="fname">Mona</field>
+		<field name="lname">Yousofshahi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Soha</field>
+		<field name="advisor_lname">Hassoun</field>
+		<field name="research">Multi Resolution Partitioning and Kinetic Function Estimation for Dynamic Biochemical network Model Development</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">87</field>
+		<field name="dept">EE</field>
+		<field name="fname">Alireza</field>
+		<field name="lname">Aghasi</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Eric</field>
+		<field name="advisor_lname">Miller</field>
+		<field name="research">Multi-Modal and Shape-based Inverse methods for the characterization of DNAPL Source Zone Architecture</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">88</field>
+		<field name="dept">EE</field>
+		<field name="fname">John</field>
+		<field name="lname">Chivers</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Thomas</field>
+		<field name="advisor_lname">Vandervelde</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">89</field>
+		<field name="dept">EE</field>
+		<field name="fname">Dante</field>
+		<field name="lname">DeMeo</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Thomas</field>
+		<field name="advisor_lname">Vandervelde</field>
+		<field name="research">Agilent Micro Plasma Research</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">90</field>
+		<field name="dept">EE</field>
+		<field name="fname">Chandler</field>
+		<field name="lname">Downs</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Thomas</field>
+		<field name="advisor_lname">Vandervelde</field>
+		<field name="research">Agilent Micro Plasma Research</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">91</field>
+		<field name="dept">EE</field>
+		<field name="fname">Jian</field>
+		<field name="lname">Guo</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Walt</field>
+		<field name="research">Chemical Communications</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">92</field>
+		<field name="dept">EE</field>
+		<field name="fname">Fridrik</field>
+		<field name="lname">Larusson</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Eric</field>
+		<field name="advisor_lname">Miller</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">93</field>
+		<field name="dept">EE</field>
+		<field name="fname">Samuel</field>
+		<field name="lname">MacNaughton</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">94</field>
+		<field name="dept">EE</field>
+		<field name="fname">Naoto</field>
+		<field name="lname">Miura</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Jeffrey</field>
+		<field name="advisor_lname">Hopwood</field>
+		<field name="research">Start Up - Hopwood</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">95</field>
+		<field name="dept">EE</field>
+		<field name="fname">Scott</field>
+		<field name="lname">Pruessing</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">96</field>
+		<field name="dept">EE</field>
+		<field name="fname">Nahid</field>
+		<field name="lname">Rahman</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Mohammed</field>
+		<field name="advisor_lname">Afsar</field>
+		<field name="research">Microwave-Nahid Rahman Stipend</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">97</field>
+		<field name="dept">EE</field>
+		<field name="fname">George</field>
+		<field name="lname">Saveriades</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Emmanuel</field>
+		<field name="advisor_lname">Pothos</field>
+		<field name="research">Research Fellowship</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">98</field>
+		<field name="dept">EE</field>
+		<field name="fname">Oguz</field>
+		<field name="lname">Semerci</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Eric</field>
+		<field name="advisor_lname">Miller</field>
+		<field name="research">ALERT (Awareness and Limitation of Explosive-Related Threats)</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">99</field>
+		<field name="dept">EE</field>
+		<field name="fname">Corey</field>
+		<field name="lname">Shemelya</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Thomas</field>
+		<field name="advisor_lname">Vandervelde</field>
+		<field name="research">Agilent Micro Plasma Research</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">100</field>
+		<field name="dept">EE</field>
+		<field name="fname">Michael</field>
+		<field name="lname">Trakimas</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Sameer</field>
+		<field name="advisor_lname">Sonkusale</field>
+		<field name="research">Development of Integrated RF CMOS Receiver for Ultra Low Power Applications</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">101</field>
+		<field name="dept">EE</field>
+		<field name="fname">Sampathkumar</field>
+		<field name="lname">Veeraraghavan</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Karen</field>
+		<field name="advisor_lname">Panetta</field>
+		<field name="research">Edge Detection Alogrithms for threat object detection and recognition</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">102</field>
+		<field name="dept">EE</field>
+		<field name="fname">Yue</field>
+		<field name="lname">Wu</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Joseph</field>
+		<field name="advisor_lname">Noonan</field>
+		<field name="research">Multilingual Automatic Document Classification, Analysis, and Translation (MADCAT)</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">103</field>
+		<field name="dept">EE</field>
+		<field name="fname">Ruida</field>
+		<field name="lname">Yun</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Valencia</field>
+		<field name="advisor_lname">Joyner</field>
+		<field name="research">BRIGE: Intergrated Multi-Mode Imaging Sensors for Frequency-Domain Biomedical Imaging</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">104</field>
+		<field name="dept">EE</field>
+		<field name="fname">Zhibo</field>
+		<field name="lname">Zhang</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Jeffrey</field>
+		<field name="advisor_lname">Hopwood</field>
+		<field name="research">Instabilities in Nonthermal and Uniformity in Atmospheric Pressure Plasma</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">105</field>
+		<field name="dept">EE</field>
+		<field name="fname">Yicong</field>
+		<field name="lname">Zhou</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Karen</field>
+		<field name="advisor_lname">Panetta</field>
+		<field name="research">Edge Detection Alogrithms for threat object detection and recognition</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">106</field>
+		<field name="dept">ME</field>
+		<field name="fname">Douglas</field>
+		<field name="lname">Breault</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Marc</field>
+		<field name="advisor_lname">Hodes</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">107</field>
+		<field name="dept">ME</field>
+		<field name="fname">Sarah</field>
+		<field name="lname">Briggs</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">108</field>
+		<field name="dept">ME</field>
+		<field name="fname">Alfram</field>
+		<field name="lname">Bright</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Laser-based Active Aircraft division</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">109</field>
+		<field name="dept">ME</field>
+		<field name="fname">Paul</field>
+		<field name="lname">Choufani</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Douglas</field>
+		<field name="advisor_lname">Matson</field>
+		<field name="research">LODESTARS program</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">110</field>
+		<field name="dept">ME</field>
+		<field name="fname">Jessica</field>
+		<field name="lname">Eisenstein</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Caroline</field>
+		<field name="advisor_lname">Cao</field>
+		<field name="research">CAREER: Adapting to technology in minimally invasive surgery</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">111</field>
+		<field name="dept">ME</field>
+		<field name="fname">Roselita</field>
+		<field name="lname">Fragoudauis</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Douglas</field>
+		<field name="advisor_lname">Matson</field>
+		<field name="research">LODESTARS program</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">112</field>
+		<field name="dept">ME</field>
+		<field name="fname">Joshua</field>
+		<field name="lname">Krause</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Robert</field>
+		<field name="advisor_lname">White</field>
+		<field name="research">BoundaryLayer Characterization</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">113</field>
+		<field name="dept">ME</field>
+		<field name="fname">Robert</field>
+		<field name="lname">Linsalata</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">LABView for HighSchool Product</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">114</field>
+		<field name="dept">ME</field>
+		<field name="fname">Shuangqin</field>
+		<field name="lname">Liu</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Robert</field>
+		<field name="advisor_lname">White</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">115</field>
+		<field name="dept">ME</field>
+		<field name="fname">Philip</field>
+		<field name="lname">Mallon</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Luisa</field>
+		<field name="advisor_lname">Chiesa</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">116</field>
+		<field name="dept">ME</field>
+		<field name="fname">Steven</field>
+		<field name="lname">McHugh</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Jason</field>
+		<field name="advisor_lname">Rife</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">117</field>
+		<field name="dept">ME</field>
+		<field name="fname">Drew</field>
+		<field name="lname">Mills</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Optimization of Transport Processes in Aerogel Blanket Manufacture</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">118</field>
+		<field name="dept">ME</field>
+		<field name="fname">Kyle</field>
+		<field name="lname">O'brien</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Laser-based Active Aircraft division</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">119</field>
+		<field name="dept">ME</field>
+		<field name="fname">David</field>
+		<field name="lname">Orellano</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Optimization of Transport Processes in Aerogel Blanket Manufacture</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">120</field>
+		<field name="dept">ME</field>
+		<field name="fname">Jeremiah</field>
+		<field name="lname">Palmer</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">LABView for HighSchool Product</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">121</field>
+		<field name="dept">ME</field>
+		<field name="fname">Francesco</field>
+		<field name="lname">Pancheri</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">122</field>
+		<field name="dept">ME</field>
+		<field name="fname">Jason</field>
+		<field name="lname">Prapas</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Optimization of Transport Processes in Aerogel Blanket Manufacture</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">123</field>
+		<field name="dept">ME</field>
+		<field name="fname">Frank</field>
+		<field name="lname">Saunders</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Barry</field>
+		<field name="advisor_lname">Trimmer</field>
+		<field name="research">ChemBots: Morphing soft-material robots for covert access</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">124</field>
+		<field name="dept">ME</field>
+		<field name="fname">Matthew</field>
+		<field name="lname">Sherman</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Richard</field>
+		<field name="advisor_lname">Wlezien</field>
+		<field name="research">Optimization of Transport Processes in Aerogel Blanket Manufacture</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">125</field>
+		<field name="dept">ME</field>
+		<field name="fname">Minchul</field>
+		<field name="lname">Shin</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">David</field>
+		<field name="advisor_lname">Kaplan</field>
+		<field name="research">Chembots - SOE</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">126</field>
+		<field name="dept">ME</field>
+		<field name="fname">Peter</field>
+		<field name="lname">Sneeringer</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Using Wide-Spread Collaboration to Motivate Innovation and Creativity</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">127</field>
+		<field name="dept">ME</field>
+		<field name="fname">Erich</field>
+		<field name="lname">Tisch</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Christopher</field>
+		<field name="advisor_lname">Swan</field>
+		<field name="research">The Role of Service-Learning: Improving Engineering Education; Attracting Women Into Engineering</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">128</field>
+		<field name="dept">ME</field>
+		<field name="fname">Matthew</field>
+		<field name="lname">Van Lieshout</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Marc</field>
+		<field name="advisor_lname">Hodes</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">129</field>
+		<field name="dept">ME</field>
+		<field name="fname">Tiening</field>
+		<field name="lname">Wang</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Luisa</field>
+		<field name="advisor_lname">Chiesa</field>
+		<field name="research"></field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">130</field>
+		<field name="dept">ED</field>
+		<field name="fname">Kristen</field>
+		<field name="lname">Bethke Wendell</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Impact of LEGO-design-based curricula on 3rd and 4th grade students' understandings of fundamental science concepts.</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">131</field>
+		<field name="dept">ED</field>
+		<field name="fname">Mary</field>
+		<field name="lname">Caddle</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Diane</field>
+		<field name="advisor_lname">Souvaine</field>
+		<field name="research">Problem Solving with Discrete Mathematics (PSDM)</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">132</field>
+		<field name="dept">ED</field>
+		<field name="fname">Adam</field>
+		<field name="lname">Carberry</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Christopher</field>
+		<field name="advisor_lname">Swan</field>
+		<field name="research">Investigating students learning engineering through service-learning</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">133</field>
+		<field name="dept">ED</field>
+		<field name="fname">Brian</field>
+		<field name="lname">Gravel</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Integrated perspectives on the role of learning and appropriating representationsin constructing science understanding</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">134</field>
+		<field name="dept">ED</field>
+		<field name="fname">Elsa</field>
+		<field name="lname">Head</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Co-manager of STOMP</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">135</field>
+		<field name="dept">ED</field>
+		<field name="fname">Amber</field>
+		<field name="lname">Kendall</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Transforming Elementary Science Learning through LEGO(TM) Engineering Design</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">136</field>
+		<field name="dept">ED</field>
+		<field name="fname">Jed</field>
+		<field name="lname">Palmer</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Works at CEEO creating a robotics programming language</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">137</field>
+		<field name="dept">ED</field>
+		<field name="fname">Merredith</field>
+		<field name="lname">Portsmore</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Focus on how first grade students engage in understanding and solving engineering design problems</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">138</field>
+		<field name="dept">ED</field>
+		<field name="fname">Peter</field>
+		<field name="lname">Sneeringer</field>
+		<field name="degree">MS</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Research on how students use RoboBooks software and associated website and how those products foster collaboration among those students.</field>
+		<field name="link" xsi:nil="true" />
+		<field name="photo" xsi:nil="true" />
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">139</field>
+		<field name="dept">ED</field>
+		<field name="fname">Christopher</field>
+		<field name="lname">Wright</field>
+		<field name="degree">PhD</field>
+		<field name="advisor_fname">Chris</field>
+		<field name="advisor_lname">Rogers</field>
+		<field name="research">Theory of design-based science teaching and learning: Recognizing the voices of students of color</field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-05-17 19:16:31</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

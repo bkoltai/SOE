@@ -1,0 +1,12 @@
+# To bootstrap data, first:                         rake db:migrate:reset
+# Then, insue that sql xml files are in /tmp/xml/:  mysql -u * < script/bootstrap.sql 
+# Then                                              rake db:seed
+
+# Associate Researcher_ids with projects according to pi_fname, pi_lname
+#-----------------
+Project.all.each do |p|
+  p.researcher = Researcher.find_or_create_by_fname_and_lname(p.pi_fname, p.pi_lname, {:dept => 'Unkown', :email => 'Unknown@unknown.edu', :phone => 'Unknow', :description => 'Unknown'}) # Assosicates the researcher_id to the project if it exists, and creates a researcher with above values if they don't
+  p.save!
+end
+
+User.create(:name => "soeadmin", :password => "admin")

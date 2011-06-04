@@ -1,0 +1,13 @@
+<% title "Center" %>
+
+<p>
+  <strong>Center:</strong>
+  <%= @center.name %>
+  <%= @center.abbreviation %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_center_path(@center) %> |
+  <%= link_to "Destroy", @center, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", centers_path %>
+</p>

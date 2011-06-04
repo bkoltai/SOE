@@ -1,0 +1,12 @@
+<h1>Upload projects</h1>
+
+<div id="upload">
+<p>Pick a CSV to upload. The CSV must use commas to separate fields and newlines to separate entries. The accepted feilds for a project are researcher's last name, project department, project title, and supporting agency. These fields should appear in order. An example is:</p>
+<pre>Abriola,BME,Name of Project,AGENCY
+Kaplan,BME,Another Name of Project,AGENCY</pre>
+  <p><strong>ALSO NOTE:</strong> Uploading a new CSV will delete ALL current projects in the database.</p>
+
+<%= render 'upload' %>
+</div>
+
+<%= link_to 'Back', projects_path %>

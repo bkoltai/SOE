@@ -1,0 +1,7 @@
+<% @title = "Login" %>
+<% @nav = false %>
+<% form_for @user, :html => {:id => "login_form"} do |f| %>
+	<p><%= f.label :username, "Username:" %></p>
+	<p><%= f.text_field :username, :size => 10 %></p>
+	<%= f.submit 'Submit' %>
+<% end %>

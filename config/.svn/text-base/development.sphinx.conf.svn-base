@@ -1,0 +1,42 @@
+indexer
+{
+}
+
+searchd
+{
+  listen = 127.0.0.1:9312
+  log = /Users/BenjiKoltai/Desktop/Rails_Projects/NEW-soe-dev/log/searchd.log
+  query_log = /Users/BenjiKoltai/Desktop/Rails_Projects/NEW-soe-dev/log/searchd.query.log
+  pid_file = /Users/BenjiKoltai/Desktop/Rails_Projects/NEW-soe-dev/log/searchd.development.pid
+}
+
+source researcher_core_0
+{
+  type = mysql
+  sql_host = localhost
+  sql_user = soe
+  sql_pass = 
+  sql_db = soe_dev
+  sql_sock = /var/lib/mysql/mysql.sock
+  sql_query_pre = SET NAMES utf8
+  sql_query_pre = SET TIME_ZONE = '+0:00'
+  sql_query = SELECT     SQL_NO_CACHE `researchers`.`id` * 1 + 0 AS `id` , `researchers`.`dept` AS `dept`, `researchers`.`fname` AS `fname`, `researchers`.`lname` AS `lname`, `researchers`.`description` AS `description`, `researchers`.`id` AS `sphinx_internal_id`, 983706894 AS `class_crc`, 0 AS `sphinx_deleted` FROM       `researchers`  WHERE     (`researchers`.`id` >= $start AND `researchers`.`id` <= $end) GROUP BY  `researchers`.`id`, `researchers`.`dept`, `researchers`.`fname`, `researchers`.`lname`, `researchers`.`description`, `researchers`.`id` ORDER BY  NULL
+  sql_query_range = SELECT IFNULL(MIN(`id`), 1), IFNULL(MAX(`id`), 1) FROM `researchers` 
+  sql_attr_uint = sphinx_internal_id
+  sql_attr_uint = class_crc
+  sql_attr_uint = sphinx_deleted
+  sql_query_info = SELECT * FROM `researchers` WHERE `id` = (($id - 0) / 1)
+}
+
+index researcher_core
+{
+  source = researcher_core_0
+  path = /Users/BenjiKoltai/Desktop/Rails_Projects/NEW-soe-dev/db/sphinx/development/researcher_core
+  charset_type = utf-8
+}
+
+index researcher
+{
+  type = distributed
+  local = researcher_core
+}

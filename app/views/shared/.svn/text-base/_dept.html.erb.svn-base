@@ -1,0 +1,18 @@
+<div id="dept-sort" class="sort_options">
+	<div id="select_dept">
+		<h3>Narrow by Faculty</h3>
+		<ul>                                                                                          
+		<li><%= link_to "Biomedical Engineering (BME)", {:dept => "BME", :sort => @prevSort}%>
+		<li><%= link_to "Civil and Environmental Engineering (CEE)", {:dept => "CEE", :sort => @prevSort}%>
+		<li><%= link_to "Chemical and Biological Engineering (CHBE)", {:dept => "CHBE", :sort => @prevSort}%>
+		<li><%= link_to "Computer Science (CS)", {:dept => "CS", :sort => @prevSort}%>
+		<li><%= link_to "Electrical and Computer Engineering (ECE)", {:dept => "ECE", :sort => @prevSort}%>
+		<li><%= link_to "Mechanical Engineering (ME)", {:dept => "ME", :sort => @prevSort}%>
+		<li><%= link_to "Gordon Institute (TGI)", {:dept => "TGI", :sort => @prevSort}%>
+		</ul>                                                                                         
+	</div>                                                                                          
+	<p><%= link_to "Show All Faculty", { :controller => :researchers, :action => :index } %>
+</p>
+Sort by: <%= link_to "First name", params.merge(:sort => "fname", :dept => params[:dept], :search  => params[:search], :center => params[:center]) %>
+         <%= link_to "Last name", params.merge(:sort => "lname", :dept => params[:dept], :search  => params[:search], :center => params[:center]) %>
+</div>

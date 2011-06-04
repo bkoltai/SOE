@@ -1,0 +1,14 @@
+<% @title = "Faculty" %>
+<%= render :partial => 'shared/sort' %>
+
+<% if session[:user_id] %>
+<h2>Click <%= link_to 'here', :controller => :researchers, :action => :list %> for an administrative layout</h2>
+	<br/><h3><%= link_to 'New Researcher', new_researcher_path %></h3>
+<% end %>
+<div id="researchers">
+  <p><%= paginate @researchers, :window => 3 %></p>
+	<%= render @researchers %>
+	<p><%= paginate @researchers, :window => 3 %></p>
+</div>
+<%= render	:partial => "shared/sidebar" %>
+<div class="clear"></div>

@@ -1,0 +1,51 @@
+Installation
+----------------------------
+Once files are in a directory on the server machine do:
+
+1.  bundle install
+	This will install all the required Gems for the application.  These gems are specified in the Gemfile
+
+2.  Configure the database.yml file in the config folder to reflect your database configuration.  You will most likely have to change any username and password information as well as hostname and possibly database.  Be sure to change this for whichever enviornment you are setting up the application in.  For production, make changes at the bottom where it says "production:"
+
+3.  If you are setting up the program for development, run
+	rake db:migrate:reset
+	
+	This will initialize all tables in the database.  If you see errors, check the database.yml file first to make sure all configuration is correct.
+	
+	If you are setting up for production, run
+	rake db:migrate:reset RAILS_ENV='production'
+	
+	This tells rails to use the production configurations in the database.yml
+
+4.  Once the database is set up, import the data, either by passing in a .sql file that has a similar data backed up or by running ./script/bootstrap.sql.  See bootstrap.sql to understand what needs to be in place in order for this to work properly.
+
+5.  rake db:seed
+	This will add to the database any information in the seed file.  Currently, the seed file holds code to associate projects with researchers as well as adds an admin: username - soeadmin, password - admin
+
+6.  If you will be using sphinx/thinking_sphinx plugin, install sphinx onto the server machine.
+
+6a.  Once sphinx is installed, runL
+ 		rake ts:index
+		rake ts:start
+
+7.  You should be ready to start the server and get going.
+
+-------------------------------------
+Applying updates
+-------------------------------------
+To apply updates from svn, run
+
+./script/apply-updates
+
+from the root of the project
+
+-------------------------------------
+Database Backups
+-------------------------------------
+To backup the current mysql database, run
+
+./db/backupdb.sh
+
+from the root of the project.
+
+This will create a new dump of the database and put it in db/backups/mysql.

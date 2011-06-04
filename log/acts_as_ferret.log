@@ -1,0 +1,233 @@
+# Logfile created on Sun Feb 13 16:39:47 -0500 2011 by logger.rb/22285
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+using index in ./index/development/researcher
+[researcher] rebuild index with models: []
+[researcher] reopening index at ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: [:lname, :fname]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+Will use local index.
+Will use local index.
+using index in ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: [:lname, :fname]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+Will use local index.
+using index in ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: [:lname, :fname]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+[researcher] register class Researcher with index researcher
+[researcher] refusing re-registration of class Researcher
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:page=>nil, :limit=>:all}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+Query: linda
+total hits: 0, results delivered: 0
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+Will use local index.
+using index in ./index/development/researcher
+[researcher] rebuild index with models: []
+[researcher] reopening index at ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: [:dept, :lname, :created_at, :fname, :email, :link, :phone, :description, :updated_at, :photo, :recent]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: environment
+-->+(dept:environment lname:environment created_at:environment fname:environment email:environment link:environment phone:environment description:environment updated_at:environment photo:environment recent:environment) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: environment
+-->+(dept:environment lname:environment created_at:environment fname:environment email:environment link:environment phone:environment description:environment updated_at:environment photo:environment recent:environment) +(class_name:Researcher)
+Query: environment
+total hits: 0, results delivered: 0
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(dept:linda lname:linda created_at:linda fname:linda email:linda link:linda phone:linda description:linda updated_at:linda photo:linda recent:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(dept:linda lname:linda created_at:linda fname:linda email:linda link:linda phone:linda description:linda updated_at:linda photo:linda recent:linda) +(class_name:Researcher)
+Query: linda
+total hits: 0, results delivered: 0
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(dept:linda lname:linda created_at:linda fname:linda email:linda link:linda phone:linda description:linda updated_at:linda photo:linda recent:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(dept:linda lname:linda created_at:linda fname:linda email:linda link:linda phone:linda description:linda updated_at:linda photo:linda recent:linda) +(class_name:Researcher)
+Query: linda
+total hits: 0, results delivered: 0
+Will use local index.
+Will use local index.
+using index in ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: ["lname", "fname"]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+Query: linda
+total hits: 0, results delivered: 0
+Will use local index.
+using index in ./index/development/researcher
+[researcher] register class Researcher with index researcher
+[researcher] default field list for index researcher: [:lname, :fname]
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: linda
+-->+(lname:linda fname:linda) +(class_name:Researcher)
+Query: linda
+total hits: 0, results delivered: 0
+index_for [Researcher(id: integer, dept: text, fname: text, lname: text, email: string, phone: string, description: text, link: string, photo: string, created_at: datetime, updated_at: datetime, recent: boolean)]
+options: {:offset=>nil, :limit=>nil}
+ar_options: {:conditions=>"1=1"}
+[researcher] stored_fields: nil
+[researcher] query: l
+-->+(lname:l fname:l) +(class_name:Researcher)
+[researcher] now retrieving records from AR with options: {:conditions=>"1=1"}
+[researcher] 0 results from AR: []
+[researcher] stored_fields: nil
+[researcher] query: l
+-->+(lname:l fname:l) +(class_name:Researcher)
+Query: l
+total hits: 0, results delivered: 0
+Will use local index.

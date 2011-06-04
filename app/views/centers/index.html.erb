@@ -1,0 +1,22 @@
+<% title "Centers" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Abbreviation</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% for center in @centers %>
+    <tr>
+      <td><%= center.name %></td>
+      <td><%= center.abbreviation %></td>
+      <td><%= link_to "Show", center %></td>
+      <td><%= link_to "Edit", edit_center_path(center) %></td>
+      <td><%= link_to "Destroy", center, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Center", new_center_path %></p>

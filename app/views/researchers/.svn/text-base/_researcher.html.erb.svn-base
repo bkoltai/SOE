@@ -1,0 +1,24 @@
+<div class="researcherRow" >
+	<div class="researcherInfo">
+	  <div class="researcherImg">
+  	<%= image_tag researcher_image(researcher) %>
+  	</div>
+		<h1><%= researcher_link(researcher) %></h1>&nbsp;<h2>(<%= researcher.dept %>)
+		   <%= researcher_centers(researcher) %></h2>
+		<p><%= mail_to researcher.email %></p>
+		<p>617-62<%= researcher.phone %></p>
+		<p>Researcher Interests: <%= researcher.description %></p>
+	</div>
+	<% if session[:user_id] %>
+    	<p><%= link_to 'Show', researcher %>
+    	<%= link_to 'Edit', edit_researcher_path(researcher) %>
+    	<%= link_to 'Destroy', researcher, :confirm => 'Are you sure?', :method => :delete %></p>
+	<% end %>
+	<% if !researcher.projects.empty? %>
+	<%= link_to_function "Show/Hide Projects", :class => 'toggle_projects' %>
+	<div class="researcherProjects" style="display: none;">
+		<ul><%= render researcher.projects %></ul>
+	</div>
+	<% end %>		
+</div>
+

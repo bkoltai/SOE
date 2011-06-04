@@ -1,0 +1,11 @@
+<div id="center-sort" class="sort_options">
+	<div id="select_center">
+		<h3>Narrow by Center</h3>
+		<ul>
+		  <% for center in Center.all %>    
+		  <li><%= link_to "#{center.name} (#{center.abbreviation})", {:center => center.abbreviation, :sort => @prevSort}%></li>
+      <% end  %>
+		</ul>                                                                                         
+	</div>    
+	<div class="clear"></div>                                                                                      
+</div>

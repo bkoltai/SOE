@@ -1,0 +1,1283 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="clatin01">
+	<table_structure name="soe_researchers">
+		<field Field="id" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" />
+		<field Field="dept" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="fname" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="lname" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="email" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="phone" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="description" Type="text" Null="YES" Key="" Extra="" />
+		<field Field="link" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="photo" Type="varchar(255)" Null="YES" Key="" Extra="" />
+		<field Field="created_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<field Field="updated_at" Type="datetime" Null="YES" Key="" Extra="" />
+		<key Table="soe_researchers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="97" Null="" Index_type="BTREE" Comment="" />
+		<options Name="soe_researchers" Engine="InnoDB" Version="10" Row_format="Compact" Rows="97" Avg_row_length="506" Data_length="49152" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="98" Create_time="2010-04-16 00:02:21" Collation="utf8_general_ci" Create_options="" Comment="InnoDB free: 736256 kB" />
+	</table_structure>
+	<table_data name="soe_researchers">
+	<row>
+		<field name="id">1</field>
+		<field name="dept">BME</field>
+		<field name="fname">Greg</field>
+		<field name="lname">Altman</field>
+		<field name="email">gregory.altman@tufts.edu</field>
+		<field name="phone">7-4604</field>
+		<field name="description">Collagen-based matrices, ligament formation, bioreactor systems, in vitro tissue formation and development </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-06-10 21:54:08</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="dept">BME</field>
+		<field name="fname">Christopher</field>
+		<field name="lname">Cannizzaro</field>
+		<field name="email">Chris.Cannizzaro@tufts.edu</field>
+		<field name="phone">7-0906</field>
+		<field name="description">Bioprocess engineering, tissue engineering, microfluidics, automation </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="dept">BME</field>
+		<field name="fname">Mark</field>
+		<field name="lname">Cronin-Golomb</field>
+		<field name="email">mark.cronin-golomb@tufts.edu</field>
+		<field name="phone">7-4255</field>
+		<field name="description">Optical instrumentation, laser tweezers, atomic force microscopy, nonlinear optics </field>
+		<field name="link">http://engineering.tufts.edu/bme/people/cronin-golomb/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyCronin-Golomb.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:30:46</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="dept">BME</field>
+		<field name="fname">Sergio</field>
+		<field name="lname">Fantini</field>
+		<field name="email">sergio.fantini@tufts.edu</field>
+		<field name="phone">7-4356</field>
+		<field name="description">Near-infrared tissue imaging, biomedical instrumentation, medical optics  </field>
+		<field name="link">http://engineering.tufts.edu/bme/people/fantini/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyFantini.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:31:43</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="dept">BME</field>
+		<field name="fname">Irene</field>
+		<field name="lname">Georgakoudi</field>
+		<field name="email">Irene.Georgakoudi@tufts.edu</field>
+		<field name="phone">7-4353</field>
+		<field name="description">Spectroscopic imaging and characterization, in vivo flow cytometry </field>
+		<field name="link">http://engineering.tufts.edu/bme/people/georgakoudi/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyGeorgakoudi.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:32:05</field>
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="dept">BME</field>
+		<field name="fname">David</field>
+		<field name="lname">Kaplan</field>
+		<field name="email">david.kaplan@tufts.edu</field>
+		<field name="phone">7-3251</field>
+		<field name="description">Bioengineering, biomaterials, biopolymer engineering, tissue engineering </field>
+		<field name="link">http://engineering.tufts.edu/bme/people/kaplan/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyKaplan.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:30:24</field>
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="dept">BME</field>
+		<field name="fname">Catherine</field>
+		<field name="lname">Kuo</field>
+		<field name="email">CatherineK.Kuo@tufts.edu</field>
+		<field name="phone">7-4321</field>
+		<field name="description">Stem cells, tissue engineering, biomaterials, developmental biology</field>
+		<field name="link">http://engineering.tufts.edu/bme/people/kuo/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyKuo.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:30:01</field>
+	</row>
+	<row>
+		<field name="id">8</field>
+		<field name="dept">BME</field>
+		<field name="fname">Fiorenzo</field>
+		<field name="lname">Omenetto</field>
+		<field name="email">Fiorenzo.Omenetto@tufts.edu</field>
+		<field name="phone">7-2580</field>
+		<field name="description">Ultrafast nonlinear optics, Nanophotonics, Biophotonics</field>
+		<field name="link">http://engineering.tufts.edu/bme/people/omenetto/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/bme/photos/facultyOmenetto.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:34:35</field>
+	</row>
+	<row>
+		<field name="id">9</field>
+		<field name="dept">BME</field>
+		<field name="fname">Bruce</field>
+		<field name="lname">Panilaitis</field>
+		<field name="email">bruce.panilaitis@tufts.edu</field>
+		<field name="phone">7-3607</field>
+		<field name="description">Vaccine development, metabolic engineering  </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">10</field>
+		<field name="dept">BME</field>
+		<field name="fname">Robert</field>
+		<field name="lname">Peattie</field>
+		<field name="email">robert.peattie@tufts.edu</field>
+		<field name="phone">7-0907</field>
+		<field name="description">Bioengineering, biomechanics, biofluid mechanics, biomaterials, tissue engineering </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">11</field>
+		<field name="dept">BME</field>
+		<field name="fname">Angelo</field>
+		<field name="lname">Sassaroli</field>
+		<field name="email">Angelo.Sassaroli@tufts.edu</field>
+		<field name="phone">7-4970</field>
+		<field name="description">Infrared spectroscopy, functional magnetic resonance imaging for understanding functional brain activation </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">12</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Linda</field>
+		<field name="lname">Abriola</field>
+		<field name="email">Linda.Abriola@tufts.edu</field>
+		<field name="phone">7-3237</field>
+		<field name="description">Environmental and water resources engineering  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/abriola/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/abriola/abriola.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:36:00</field>
+	</row>
+	<row>
+		<field name="id">13</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Laurie</field>
+		<field name="lname">Baise</field>
+		<field name="email">laurie.baise@tufts.edu</field>
+		<field name="phone">7-2211</field>
+		<field name="description">Geological engineering, earthquake engineering  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/baise/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/baise/baise.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:37:35</field>
+	</row>
+	<row>
+		<field name="id">14</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Brian</field>
+		<field name="lname">Brenner</field>
+		<field name="email">brian.brenner@tufts.edu</field>
+		<field name="phone">7-3761</field>
+		<field name="description">Structural engineering, bridge analysis and design  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/brenner/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/brenner/brenner.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:46:43</field>
+	</row>
+	<row>
+		<field name="id">15</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Natalie</field>
+		<field name="lname">Capiro</field>
+		<field name="email">natalie.capiro@tufts.edu</field>
+		<field name="phone">7-6015</field>
+		<field name="description">Environmental biotechnology, bioremediation applications, fate and transport  </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">16</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Steven</field>
+		<field name="lname">Chapra</field>
+		<field name="email">steven.chapra@tufts.edu</field>
+		<field name="phone">7-3654</field>
+		<field name="description">Environmental engineering, surface water-quality modeling  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/chapra/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/chapra/chapra.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:47:53</field>
+	</row>
+	<row>
+		<field name="id">17</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Mingjie</field>
+		<field name="lname">Chen</field>
+		<field name="email">Mingjie.Chen@tufts.edu</field>
+		<field name="phone">7-3513</field>
+		<field name="description">Groundwater modeling, inverse modeling, contaminant hydrogeology, subsurface stochastic hydrology, uncertainty analysis, environmental remediation, dechlorination, geostatistics, multiphase flow model  </field>
+		<field name="link">http://fiesta.bren.ucsb.edu/~mchen/</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:17:12</field>
+	</row>
+	<row>
+		<field name="id">18</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Wayne</field>
+		<field name="lname">Chudyk</field>
+		<field name="email">wayne.chudyk@tufts.edu</field>
+		<field name="phone">7-3070</field>
+		<field name="description">Mechanics and environmental engineering, surface and groundwater monitoring  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/chudyk/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/chudyk/chudyk.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:49:19</field>
+	</row>
+	<row>
+		<field name="id">19</field>
+		<field name="dept">CEE</field>
+		<field name="fname">AnneMarie</field>
+		<field name="lname">Desmarais</field>
+		<field name="email">annemarie.desmarais@tufts.edu</field>
+		<field name="phone">7-3763</field>
+		<field name="description">Environmental health  </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">20</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Luis</field>
+		<field name="lname">Dorfmann</field>
+		<field name="email">Luis.Dorfmann@tufts.edu</field>
+		<field name="phone">7-6137</field>
+		<field name="description">Structural engineering, applied mechanics  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/dorfmann/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/dorfmann/dorfmann.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:50:06</field>
+	</row>
+	<row>
+		<field name="id">21</field>
+		<field name="dept">CEE</field>
+		<field name="fname">John</field>
+		<field name="lname">Durant</field>
+		<field name="email">john.durant@tufts.edu</field>
+		<field name="phone">7-5489</field>
+		<field name="description">Environmental engineering, environmental fluid mechanics, chemical fate and transport  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/durant/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/durant/durant.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:50:29</field>
+	</row>
+	<row>
+		<field name="id">22</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Lewis</field>
+		<field name="lname">Edgers</field>
+		<field name="email">lewis.edgers@tufts.edu</field>
+		<field name="phone">7-5875</field>
+		<field name="description">Geotechnical engineering, geoenvironmental engineering, Wind energy (renewables)  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/edgers/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/edgers/edgers.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:50:54</field>
+	</row>
+	<row>
+		<field name="id">23</field>
+		<field name="dept">CEE</field>
+		<field name="fname">David</field>
+		<field name="lname">Gute</field>
+		<field name="email">david.gute@tufts.edu</field>
+		<field name="phone">7-3452</field>
+		<field name="description">Environmental and occupational health and safety  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/gute/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/gute/gute.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:51:47</field>
+	</row>
+	<row>
+		<field name="id">24</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Eric</field>
+		<field name="lname">Hines</field>
+		<field name="email">Eric.Hines@tufts.edu</field>
+		<field name="phone">7-3211</field>
+		<field name="description">Steel design, earthquake engineering, structural systems  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/hines/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/hines/hines.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:52:18</field>
+	</row>
+	<row>
+		<field name="id">25</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Shafiqul</field>
+		<field name="lname">Islam</field>
+		<field name="email">Shafiqul.Islam@tufts.edu</field>
+		<field name="phone">7-4290</field>
+		<field name="description">Environmental hydrology.climate change/cholera prediction  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/islam/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/islam/islam.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:52:45</field>
+	</row>
+	<row>
+		<field name="id">26</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Kim</field>
+		<field name="lname">Knox</field>
+		<field name="email">kim.knox@tufts.edu</field>
+		<field name="phone">7-2000</field>
+		<field name="description">Applied mechanics </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">27</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Steve</field>
+		<field name="lname">Levine</field>
+		<field name="email">stephen.levine@tufts.edu</field>
+		<field name="phone">7-2212</field>
+		<field name="description">Operations research, engineering economics  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/levine/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/levine/levine.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:54:00</field>
+	</row>
+	<row>
+		<field name="id">28</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Lee</field>
+		<field name="lname">Minardi</field>
+		<field name="email">Lee.minardi@tufts.edu</field>
+		<field name="phone">7-3035</field>
+		<field name="description">Computer-aided design, geometric modeling  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/minardi/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/minardi/minardi.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:53:37</field>
+	</row>
+	<row>
+		<field name="id">29</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Babak</field>
+		<field name="lname">Moaveni</field>
+		<field name="email">babak.moaveni@tufts.edu</field>
+		<field name="phone">7-5642</field>
+		<field name="description">Structural engineering, bridges </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/moaveni/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/moaveni/moaveni.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:55:00</field>
+	</row>
+	<row>
+		<field name="id">30</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Kurt</field>
+		<field name="lname">Pennell</field>
+		<field name="email">Kurt.Pennell@tufts.edu</field>
+		<field name="phone">7-3994</field>
+		<field name="description">Transport of subsurface contaminants, environmental engineering  </field>
+		<field name="link">http://engineering.tufts.edu/cee/impes/</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/pennell/pennell.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:56:43</field>
+	</row>
+	<row>
+		<field name="id">31</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Andrew</field>
+		<field name="lname">Ramsburg</field>
+		<field name="email">Andrew.Ramsburg@tufts.edu</field>
+		<field name="phone">7-4286</field>
+		<field name="description">Transport of subsurface contaminants, site-remediation technologies  </field>
+		<field name="link">http://engineering.tufts.edu/cee/impes/</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/ramsburg/ramsburg.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:56:18</field>
+	</row>
+	<row>
+		<field name="id">32</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Masoud</field>
+		<field name="lname">Sanayei</field>
+		<field name="email">masoud.sanayei@tufts.edu</field>
+		<field name="phone">7-4116</field>
+		<field name="description">Structural engineering, finite element analysis, structural dynamics, earthquake engineering </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/sanayei/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/sanayei/sanayei.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:58:44</field>
+	</row>
+	<row>
+		<field name="id">33</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Chris</field>
+		<field name="lname">Swan</field>
+		<field name="email">chris.swan@tufts.edu</field>
+		<field name="phone">7-3211</field>
+		<field name="description">Geoenvironmental engineering, geotechnical engineering  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/swan/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/swan/swan.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:58:04</field>
+	</row>
+	<row>
+		<field name="id">34</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Richard</field>
+		<field name="lname">Vogel</field>
+		<field name="email">richard.vogel@tufts.edu</field>
+		<field name="phone">7-4260</field>
+		<field name="description">Water resource systems, environmental statistics, hydrology  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/vogel/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/vogel/vogel.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:58:23</field>
+	</row>
+	<row>
+		<field name="id">35</field>
+		<field name="dept">CEE</field>
+		<field name="fname">Mark</field>
+		<field name="lname">Woodin</field>
+		<field name="email">mark.woodin@tufts.edu</field>
+		<field name="phone">7-3640</field>
+		<field name="description">Epidemiology and public health  </field>
+		<field name="link">http://engineering.tufts.edu/cee/people/woodin/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/cee/people/woodin/woodin.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-22 06:57:47</field>
+	</row>
+	<row>
+		<field name="id">36</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Gregory</field>
+		<field name="lname">Botsaris</field>
+		<field name="email">Gregory.botsaris@tufts.edu</field>
+		<field name="phone">7-3445</field>
+		<field name="description">Crystallization, nucleation, applied surface scienceCrystallization, nucleation, applied surface science  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/botsaris/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyBotsaris.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:03:03</field>
+	</row>
+	<row>
+		<field name="id">37</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Aurelie</field>
+		<field name="lname">Edwards</field>
+		<field name="email">aurelie.edwards@tufts.edu</field>
+		<field name="phone">7-3731</field>
+		<field name="description">Biological transport phenomena </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/edwards/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyEdwards.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:03:37</field>
+	</row>
+	<row>
+		<field name="id">38</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Maria</field>
+		<field name="lname">Flytzani-Stephanopoulos</field>
+		<field name="email">mflytzan@tufts.edu</field>
+		<field name="phone">7-3048</field>
+		<field name="description">Environmental catalysis, clean energy technologies, nanostructured oxides </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/FlytzaniStephanopoulos/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyFlytzaniStephanopoulos.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:04:09</field>
+	</row>
+	<row>
+		<field name="id">39</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Christos</field>
+		<field name="lname">Georgakis</field>
+		<field name="email">Christos.Georgakis@tufts.edu</field>
+		<field name="phone">7-2573</field>
+		<field name="description">Modeling, optimization and process control, batch processing </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/georgakis/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyGeorgakis.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:04:33</field>
+	</row>
+	<row>
+		<field name="id">40</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Kyongbum</field>
+		<field name="lname">Lee</field>
+		<field name="email">Kyongbum.Lee@tufts.edu</field>
+		<field name="phone">7-4323</field>
+		<field name="description">Metabolic engineering, tissue engineering, systems biology  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/lee/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyLee.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:04:58</field>
+	</row>
+	<row>
+		<field name="id">41</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Stephen</field>
+		<field name="lname">Matson</field>
+		<field name="email">stephen.matson@tufts.edu</field>
+		<field name="phone">7-4186</field>
+		<field name="description">Membrane separations, Membrane reactors, Bioseparations, DNA sequencing, Pharmaceuticals, Appropriate Chemical technology, STEM education  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/matson/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyMatson.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:05:33</field>
+	</row>
+	<row>
+		<field name="id">42</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Jerry</field>
+		<field name="lname">Meldon</field>
+		<field name="email">Jerry.Meldon@tufts.edu</field>
+		<field name="phone">7-3570</field>
+		<field name="description">Mass transfer, membrane processes, reaction-separation coupling </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/meldon/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyMeldon.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:06:31</field>
+	</row>
+	<row>
+		<field name="id">43</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Matt</field>
+		<field name="lname">Panzer</field>
+		<field name="email">matt.panzer@tufts.edu</field>
+		<field name="phone">7-3900</field>
+		<field name="description">Sustainable Energy, Soft Electronics, Green Technologies  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/panzer/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyPanzer.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:07:13</field>
+	</row>
+	<row>
+		<field name="id">44</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Blaine</field>
+		<field name="lname">Pfeifer</field>
+		<field name="email">Blaine.Pfeifer@tufts.edu</field>
+		<field name="phone">7-2582</field>
+		<field name="description">Biotechnology, cellular engineering, natural product biosynthesis and development  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/pfeifer/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyPfeifer.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:08:08</field>
+	</row>
+	<row>
+		<field name="id">45</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Daniel</field>
+		<field name="lname">Ryder</field>
+		<field name="email">daniel.ryder@tufts.edu</field>
+		<field name="phone">7-3446</field>
+		<field name="description">Polymer and ceramic materials processing, inorganic/organic nanocomposite materials  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/ryder/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyRyder.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:09:08</field>
+	</row>
+	<row>
+		<field name="id">46</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Howard</field>
+		<field name="lname">Saltsburg</field>
+		<field name="email">Howard.Saltsburg@tufts.edu</field>
+		<field name="phone">7-3900</field>
+		<field name="description">Catalysis, materials science  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/saltsburg/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultySaltsburg.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:09:33</field>
+	</row>
+	<row>
+		<field name="id">47</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Nakho</field>
+		<field name="lname">Sung</field>
+		<field name="email">Nakho.Sung@tufts.edu</field>
+		<field name="phone">7-3447</field>
+		<field name="description">Polymers and composites, interface science, polymer diffusion, surface modification </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/sung/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultySung.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:09:58</field>
+	</row>
+	<row>
+		<field name="id">48</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">David</field>
+		<field name="lname">Vinson</field>
+		<field name="email">david.vinson@tufts.edu</field>
+		<field name="phone">7-4906</field>
+		<field name="description">Process Operability, Model Based Control, Quality by Design  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/vinson/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyVinson.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:10:35</field>
+	</row>
+	<row>
+		<field name="id">49</field>
+		<field name="dept">CHBE</field>
+		<field name="fname">Hyunmin</field>
+		<field name="lname">Yi</field>
+		<field name="email">Hyunmi.Yi@tufts.edu</field>
+		<field name="phone">7-2195</field>
+		<field name="description">Nanoarray biosensing, in vitro metabolic engineering platforms  </field>
+		<field name="link">http://engineering.tufts.edu/chbe/people/yi/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/chbe/photos/facultyYi.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:10:47</field>
+	</row>
+	<row>
+		<field name="id">50</field>
+		<field name="dept">CS</field>
+		<field name="fname">Anselm</field>
+		<field name="lname">Blumer</field>
+		<field name="email">ablumer@cs.tufts.edu</field>
+		<field name="phone">7-3651</field>
+		<field name="description">Data compression, machine learning, artificial intelligence, computational biology  </field>
+		<field name="link">http://www.cs.tufts.edu/~ablumer/</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/anselmblumer.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:13:38</field>
+	</row>
+	<row>
+		<field name="id">51</field>
+		<field name="dept">CS</field>
+		<field name="fname">Carla</field>
+		<field name="lname">Brodly</field>
+		<field name="email">carla.brodley@tufts.edu</field>
+		<field name="phone">7-3652</field>
+		<field name="description">Data mining, computer security  </field>
+		<field name="link">http://www.cs.tufts.edu/~brodley</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/carlabrodley.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:12:06</field>
+	</row>
+	<row>
+		<field name="id">52</field>
+		<field name="dept">CS</field>
+		<field name="fname">Alva</field>
+		<field name="lname">Couch</field>
+		<field name="email">alva.couch@tufts.edu</field>
+		<field name="phone">7-3674</field>
+		<field name="description">Policy-based languages for system and network administration, support tools for teaching hands-on computer science  </field>
+		<field name="link">http://www.cs.tufts.edu/~couch</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/alvacouch.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:14:16</field>
+	</row>
+	<row>
+		<field name="id">53</field>
+		<field name="dept">CS</field>
+		<field name="fname">Lenore</field>
+		<field name="lname">Cowen</field>
+		<field name="email">lenore.cowen@tufts.edu</field>
+		<field name="phone">7-2225</field>
+		<field name="description">Algorithms, graph theory, probabilistic combinatorics  </field>
+		<field name="link">http://www.cs.tufts.edu/~cowen</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/lenorecowen.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:14:43</field>
+	</row>
+	<row>
+		<field name="id">54</field>
+		<field name="dept">CS</field>
+		<field name="fname">Samuel</field>
+		<field name="lname">Guyer</field>
+		<field name="email">Samuel.Guyer@tufts.edu</field>
+		<field name="phone">7-4948</field>
+		<field name="description">Program analysis and optimization, automatic bug detection, memory management, compiler-based tools to improve software reliability and performance  </field>
+		<field name="link">http://www.cs.tufts.edu/~sguyer</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/samuelguyer.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:15:06</field>
+	</row>
+	<row>
+		<field name="id">55</field>
+		<field name="dept">CS</field>
+		<field name="fname">Soha</field>
+		<field name="lname">Hassoun</field>
+		<field name="email">soha.hassoun@tufts.edu</field>
+		<field name="phone">7-5177</field>
+		<field name="description">CAD, VLSI design  </field>
+		<field name="link">http://www.cs.tufts.edu/~soha/</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/sohahassoun.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:17:48</field>
+	</row>
+	<row>
+		<field name="id">56</field>
+		<field name="dept">CS</field>
+		<field name="fname">Benjamin</field>
+		<field name="lname">Hescott</field>
+		<field name="email">benjamin.hescott@tufts.edu</field>
+		<field name="phone">7-4924</field>
+		<field name="description">Computational Complexity, Approximation Algorithms, Kolmogorov Complexity  </field>
+		<field name="link">http://www.cs.tufts.edu/~hescott/</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/benhescott.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:18:15</field>
+	</row>
+	<row>
+		<field name="id">57</field>
+		<field name="dept">CS</field>
+		<field name="fname">Robert</field>
+		<field name="lname">Jacob</field>
+		<field name="email">jacob@cs.tufts.edu</field>
+		<field name="phone">7-5253</field>
+		<field name="description">Human-computer interaction  </field>
+		<field name="link">http://www.cs.tufts.edu/~jacob</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/robertjacob.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:18:34</field>
+	</row>
+	<row>
+		<field name="id">58</field>
+		<field name="dept">CS</field>
+		<field name="fname">Roni</field>
+		<field name="lname">Khardon</field>
+		<field name="email">roni@eecs.tufts.edu</field>
+		<field name="phone">7-5290</field>
+		<field name="description">Machine Learning, Artificial intelligence, Algorithms </field>
+		<field name="link">http://www.cs.tufts.edu/~roni</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/ronikhardon.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:18:59</field>
+	</row>
+	<row>
+		<field name="id">59</field>
+		<field name="dept">CS</field>
+		<field name="fname">Bruce</field>
+		<field name="lname">Molay</field>
+		<field name="email">bruce.molay@tufts.edu</field>
+		<field name="phone">7-3681</field>
+		<field name="description">Computer science education, software design and development, UNIX and Linux programming  </field>
+		<field name="link"></field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at" xsi:nil="true" />
+	</row>
+	<row>
+		<field name="id">60</field>
+		<field name="dept">CS</field>
+		<field name="fname">Norman</field>
+		<field name="lname">Ramsey</field>
+		<field name="email">nr@cs.tufts.edu</field>
+		<field name="phone">7-4923</field>
+		<field name="description">Programming Languages and Systems, Functional Programming, Compiler Construction  </field>
+		<field name="link">http://www.cs.tufts.edu/~nr</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/normanramsey.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:20:18</field>
+	</row>
+	<row>
+		<field name="id">61</field>
+		<field name="dept">CS</field>
+		<field name="fname">Donna</field>
+		<field name="lname">Slonim</field>
+		<field name="email">Donna.Slonim@tufts.edu</field>
+		<field name="phone">7-2225</field>
+		<field name="description">Biological and medical information from gene expression  </field>
+		<field name="link">http://www.cs.tufts.edu/~slonim</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/donnaslonim.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:22:07</field>
+	</row>
+	<row>
+		<field name="id">62</field>
+		<field name="dept">CS</field>
+		<field name="fname">Diane</field>
+		<field name="lname">Souvaine</field>
+		<field name="email">dls@cs.tufts.edu</field>
+		<field name="phone">7-2225</field>
+		<field name="description">Computational geometry  </field>
+		<field name="link">http://www.cs.tufts.edu/~dls</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/dianesouvaine.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:23:02</field>
+	</row>
+	<row>
+		<field name="id">63</field>
+		<field name="dept">CS</field>
+		<field name="fname">Judy</field>
+		<field name="lname">Stafford</field>
+		<field name="email">jas@cs.tufts.edu</field>
+		<field name="phone">7-2491</field>
+		<field name="description">Compositional reasoning, component-based software engineering, software architecture analysis and documentation, program analysis  </field>
+		<field name="link">http://www.cs.tufts.edu/~jas</field>
+		<field name="photo">http://www.cs.tufts.edu/people/faculty/images/judithstafford.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:22:46</field>
+	</row>
+	<row>
+		<field name="id">64</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Mohammed</field>
+		<field name="lname">Afsar</field>
+		<field name="email">mohammed.afsar@tufts.edu</field>
+		<field name="phone">7-3932</field>
+		<field name="description">Microwaves and submillimeter waves, design and measurements  </field>
+		<field name="link">http://www.ece.tufts.edu/~mafsar</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/afsar.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:49:25</field>
+	</row>
+	<row>
+		<field name="id">65</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Hwa</field>
+		<field name="lname">Chang</field>
+		<field name="email">chorng.chang@tufts.edu</field>
+		<field name="phone">7-5178</field>
+		<field name="description">Computer engineering, communication networks, digital systems  </field>
+		<field name="link">http://www.ece.tufts.edu/~hchang/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/chang.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:50:32</field>
+	</row>
+	<row>
+		<field name="id">66</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Dennis</field>
+		<field name="lname">Fermental</field>
+		<field name="email">denis.fermental@tufts.edu</field>
+		<field name="phone">7-5250</field>
+		<field name="description">Control engineering, analog electronics  </field>
+		<field name="link"></field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/fermental.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:55:02</field>
+	</row>
+	<row>
+		<field name="id">67</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Jeffrey</field>
+		<field name="lname">Hopwood</field>
+		<field name="email">Jeffrey.Hopwood@tufts.edu</field>
+		<field name="phone">7-4358</field>
+		<field name="description">Plasma engineering, microelectronics, sensors</field>
+		<field name="link">http://www.ece.tufts.edu/~hopwood/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/hopwood.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:43:53</field>
+	</row>
+	<row>
+		<field name="id">68</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Valencia</field>
+		<field name="lname">Joyner</field>
+		<field name="email">Valencia.Joyner@tufts.edu</field>
+		<field name="phone">7-2291</field>
+		<field name="description">Optoelectronics, VLSI radiation effects in integrated circuits  </field>
+		<field name="link">http://www.ece.tufts.edu/~vjoyner</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/joyner.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:51:29</field>
+	</row>
+	<row>
+		<field name="id">69</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Konstantin</field>
+		<field name="lname">Korolev</field>
+		<field name="email">korolev@ece.tufts.edu</field>
+		<field name="phone">7-5065</field>
+		<field name="description">Millimeter wave and terahertz spectroscopy  </field>
+		<field name="link">http://www.ece.tufts.edu/people/faculty/bio/korolev.php</field>
+		<field name="photo">http://www.ece.tufts.edu/people/images_faculty/korolev.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:26:42</field>
+	</row>
+	<row>
+		<field name="id">70</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Ronald</field>
+		<field name="lname">Lasser</field>
+		<field name="email">Ron.Lasser@tufts.edu</field>
+		<field name="phone">7-4977</field>
+		<field name="description">Product development specialist, innovation and entrepreneurship, image processing, animation.  </field>
+		<field name="link">http://www.ece.tufts.edu/~rlasser/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/lasser.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:24:28</field>
+	</row>
+	<row>
+		<field name="id">71</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Eric</field>
+		<field name="lname">Miller</field>
+		<field name="email">Eric_L.Miller@tufts.edu</field>
+		<field name="phone">7-0835</field>
+		<field name="description">Signal and image processing, inverse problems and physics-based methods, statistical signal processing and machine learning, computational methods  </field>
+		<field name="link">http://www.ece.tufts.edu/~elmiller/elmhome/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/miller.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:44:12</field>
+	</row>
+	<row>
+		<field name="id">72</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Joseph</field>
+		<field name="lname">Noonan</field>
+		<field name="email">JNoonan@ece.tufts.edu</field>
+		<field name="phone">7-2490</field>
+		<field name="description">Communications, coding and information theory, digital signal processing  </field>
+		<field name="link">http://www.ece.tufts.edu/~jnoonan</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/noonan.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:45:30</field>
+	</row>
+	<row>
+		<field name="id">73</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Karen</field>
+		<field name="lname">Panetta</field>
+		<field name="email">Karen@eecs.tufts.edu</field>
+		<field name="phone">7-5976</field>
+		<field name="description">Digital simulation, multimedia computer architecture  </field>
+		<field name="link">http://www.ee.tufts.edu/~karen/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/panetta.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:12:48</field>
+	</row>
+	<row>
+		<field name="id">74</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Douglas</field>
+		<field name="lname">Preis</field>
+		<field name="email">DPreis@eecs.tufts.edu</field>
+		<field name="phone">7-2492</field>
+		<field name="description">Electromagnetics, signal processing, audio engineering  </field>
+		<field name="link">http://www.ece.tufts.edu/~dpreis/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/preis.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:47:44</field>
+	</row>
+	<row>
+		<field name="id">75</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Sameer</field>
+		<field name="lname">Sonkusale</field>
+		<field name="email">sameer@ece.tufts.edu</field>
+		<field name="phone">7-5113</field>
+		<field name="description">Nanotechnology, Sensors, Biomedical Electronics, Analog and Mixed-signal VLSI design</field>
+		<field name="link">http://nanolab.ece.tufts.edu/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/pics/sonkusale.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:27:14</field>
+	</row>
+	<row>
+		<field name="id">76</field>
+		<field name="dept">ECE</field>
+		<field name="fname">Thomas</field>
+		<field name="lname">Vandervelde</field>
+		<field name="email">tvanderv@ece.tufts.edu</field>
+		<field name="phone">7-5126</field>
+		<field name="description">Solar energy, thermal photovoltaics  </field>
+		<field name="link">http://www.ece.tufts.edu/~tvanderv/</field>
+		<field name="photo">http://www.ece.tufts.edu/people/facultypics/vandervelde.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-16 05:54:02</field>
+	</row>
+	<row>
+		<field name="id">77</field>
+		<field name="dept">ME</field>
+		<field name="fname">Behrouz</field>
+		<field name="lname">Abedian</field>
+		<field name="email">behrouz.abedian@tufts.edu</field>
+		<field name="phone">7-3012</field>
+		<field name="description">Fluid mechanics, polymer plastics, magnetohydrodynamics  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/abedian/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:28:02</field>
+	</row>
+	<row>
+		<field name="id">78</field>
+		<field name="dept">ME</field>
+		<field name="fname">Caroline</field>
+		<field name="lname">Cao</field>
+		<field name="email">Caroline.Cao@tufts.edu</field>
+		<field name="phone">7-2484</field>
+		<field name="description">Human factors, biomedical systems  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/cao/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyCao.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:31:56</field>
+	</row>
+	<row>
+		<field name="id">79</field>
+		<field name="dept">ME</field>
+		<field name="fname">Luisa</field>
+		<field name="lname">Chiesa</field>
+		<field name="email">Luisa.Chiesa@tufts.edu</field>
+		<field name="phone">7-4575</field>
+		<field name="description">Superconductor sensing applications, powertransmission line magnets  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/chiesa/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyChiesa.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:33:32</field>
+	</row>
+	<row>
+		<field name="id">80</field>
+		<field name="dept">ME</field>
+		<field name="fname">Daniel</field>
+		<field name="lname">Hannon</field>
+		<field name="email">Dan.Hannon@tufts.edu</field>
+		<field name="phone">7-4149</field>
+		<field name="description">Human factors, air traffic control, navigation, command and control </field>
+		<field name="link">http://engineering.tufts.edu/me/people/hannon/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:35:35</field>
+	</row>
+	<row>
+		<field name="id">81</field>
+		<field name="dept">ME</field>
+		<field name="fname">Marc</field>
+		<field name="lname">Hodes</field>
+		<field name="email">Marc.Hodes@tufts.edu</field>
+		<field name="phone">7-2488</field>
+		<field name="description">Thermoelectricity, heat and mass transfer </field>
+		<field name="link">http://engineering.tufts.edu/me/people/hodes/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:32:16</field>
+	</row>
+	<row>
+		<field name="id">82</field>
+		<field name="dept">ME</field>
+		<field name="fname">Tom</field>
+		<field name="lname">James</field>
+		<field name="email">tom.james@tufts.edu</field>
+		<field name="phone">7-2327</field>
+		<field name="description">Mechanics of cutting and sawing  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/james/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyJames.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:32:36</field>
+	</row>
+	<row>
+		<field name="id">83</field>
+		<field name="dept">ME</field>
+		<field name="fname">Mark</field>
+		<field name="lname">Kachanov</field>
+		<field name="email">mark.kachanov@tufts.edu</field>
+		<field name="phone">7-3318</field>
+		<field name="description">Fracture mechanics, micromechanics, overall properties of materials  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/kachanov/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:29:12</field>
+	</row>
+	<row>
+		<field name="id">84</field>
+		<field name="dept">ME</field>
+		<field name="fname">Gary</field>
+		<field name="lname">Leisk</field>
+		<field name="email">gary.leisk@tufts.edu</field>
+		<field name="phone">7-2547</field>
+		<field name="description">Manufacturing science, signal processing  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/leisk/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyLeisk.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:35:10</field>
+	</row>
+	<row>
+		<field name="id">85</field>
+		<field name="dept">ME</field>
+		<field name="fname">Vincent</field>
+		<field name="lname">Manno</field>
+		<field name="email">vincent.manno@tufts.edu</field>
+		<field name="phone">7-2548</field>
+		<field name="description">Computational thermal-fluid dynamics, energy system analysis  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/manno/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyManno.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:29:59</field>
+	</row>
+	<row>
+		<field name="id">86</field>
+		<field name="dept">ME</field>
+		<field name="fname">Douglas</field>
+		<field name="lname">Matson</field>
+		<field name="email">Douglas.Matson@tufts.edu</field>
+		<field name="phone">7-5742</field>
+		<field name="description">Materials processing, solidification  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/matson/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:33:02</field>
+	</row>
+	<row>
+		<field name="id">87</field>
+		<field name="dept">ME</field>
+		<field name="fname">Jason</field>
+		<field name="lname">Rife</field>
+		<field name="email">Jason.Rife@tufts.edu</field>
+		<field name="phone">7-4732</field>
+		<field name="description">Robotics, Navigation, Controls</field>
+		<field name="link">http://engineering.tufts.edu/me/people/rife/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:34:04</field>
+	</row>
+	<row>
+		<field name="id">88</field>
+		<field name="dept">ME</field>
+		<field name="fname">Chris</field>
+		<field name="lname">Rogers</field>
+		<field name="email">chris.rogers@tufts.edu</field>
+		<field name="phone">7-2882</field>
+		<field name="description">Experimental fluid dynamics, science education </field>
+		<field name="link">http://engineering.tufts.edu/me/people/rogers/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:31:06</field>
+	</row>
+	<row>
+		<field name="id">89</field>
+		<field name="dept">ME</field>
+		<field name="fname">Anil</field>
+		<field name="lname">Saigal</field>
+		<field name="email">anil.saigal@tufts.edu</field>
+		<field name="phone">7-2549</field>
+		<field name="description">Advanced materials, manufacturing processes, quality control  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/saigal/index.asp</field>
+		<field name="photo"></field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:31:32</field>
+	</row>
+	<row>
+		<field name="id">90</field>
+		<field name="dept">ME</field>
+		<field name="fname">Robert</field>
+		<field name="lname">White</field>
+		<field name="email">R.White@tufts.edu</field>
+		<field name="phone">7-2210</field>
+		<field name="description">Microelectromechanical systems (MEMS), microfabrication, acoustics, vibrations  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/white/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyWhite.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:34:48</field>
+	</row>
+	<row>
+		<field name="id">91</field>
+		<field name="dept">ME</field>
+		<field name="fname">Richard</field>
+		<field name="lname">Wlezien</field>
+		<field name="email">Richard.Wlezien@tufts.edu</field>
+		<field name="phone">7-5760</field>
+		<field name="description">Active flow control, fluid dynamics  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/wlezien/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyWlezien.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:28:23</field>
+	</row>
+	<row>
+		<field name="id">92</field>
+		<field name="dept">ME</field>
+		<field name="fname">Peter</field>
+		<field name="lname">Wong</field>
+		<field name="email">peter.wong@tufts.edu</field>
+		<field name="phone">7-5162</field>
+		<field name="description">Thermal materials processing, radiative heat transfer  </field>
+		<field name="link">http://engineering.tufts.edu/me/people/wong/index.asp</field>
+		<field name="photo">http://engineering.tufts.edu/me/photos/facultyWong.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:36:03</field>
+	</row>
+	<row>
+		<field name="id">93</field>
+		<field name="dept">TGI</field>
+		<field name="fname">Partha</field>
+		<field name="lname">Ghosh</field>
+		<field name="email">partha.ghosh@tufts.edu</field>
+		<field name="phone">7-3110</field>
+		<field name="description">Multinational strategies, globalization  </field>
+		<field name="link">http://gordon.tufts.edu/engMgmt/MSEM/faculty/Ghosh.asp</field>
+		<field name="photo">http://gordon.tufts.edu/photos/FacultyGhosh.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:38:03</field>
+	</row>
+	<row>
+		<field name="id">94</field>
+		<field name="dept">TGI</field>
+		<field name="fname">Sam</field>
+		<field name="lname">Liggero</field>
+		<field name="email">sam.liggero@tufts.edu</field>
+		<field name="phone">7-3310</field>
+		<field name="description">New product development  </field>
+		<field name="link">http://gordon.tufts.edu/engMgmt/MSEM/faculty/Liggero.asp</field>
+		<field name="photo">http://gordon.tufts.edu/photos/FacultyLiggero.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:38:34</field>
+	</row>
+	<row>
+		<field name="id">95</field>
+		<field name="dept">TGI</field>
+		<field name="fname">Charlie</field>
+		<field name="lname">Rabie</field>
+		<field name="email">charlie.rabie@tufts.edu</field>
+		<field name="phone">7-3110</field>
+		<field name="description">Business strategy </field>
+		<field name="link">http://gordon.tufts.edu/engMgmt/MSEM/faculty/Rabie.asp</field>
+		<field name="photo">http://gordon.tufts.edu/photos/FacultyRabie.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:38:53</field>
+	</row>
+	<row>
+		<field name="id">96</field>
+		<field name="dept">TGI</field>
+		<field name="fname">Arthur</field>
+		<field name="lname">Winston</field>
+		<field name="email">arthur.winston@tufts.edu</field>
+		<field name="phone">7-3112</field>
+		<field name="description">Data analysis</field>
+		<field name="link">http://gordon.tufts.edu/engMgmt/MSEM/faculty/WinstonA.asp</field>
+		<field name="photo">http://gordon.tufts.edu/photos/FacultyWinstonA.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:39:35</field>
+	</row>
+	<row>
+		<field name="id">97</field>
+		<field name="dept">TGI</field>
+		<field name="fname">Robert</field>
+		<field name="lname">Hannemann</field>
+		<field name="email">Robert.Hannemann@tufts.edu</field>
+		<field name="phone">7-3603</field>
+		<field name="description">Advanced, energy-efficient cooling of electronic products</field>
+		<field name="link">http://gordon.tufts.edu/engMgmt/MSEM/faculty/Hannemann.asp</field>
+		<field name="photo">http://gordon.tufts.edu/photos/directorHannemann.jpg</field>
+		<field name="created_at" xsi:nil="true" />
+		<field name="updated_at">2010-04-30 00:40:01</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
