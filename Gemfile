@@ -8,7 +8,7 @@ group :development do
 	gem 'mysql2'
   gem "nifty-generators"
   gem 'jquery-rails'
-  
+  gem 'ruby-debug19', :require => 'ruby-debug'
 end
 
 gem 'rails', '3.0.3'

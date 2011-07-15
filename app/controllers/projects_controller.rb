@@ -102,11 +102,18 @@ class ProjectsController < ApplicationController
     def upload_project_csv(file)
       ConfirmProject.destroy_all
       @count = 0
+      @failed_count = 0
       CSV.foreach(file.tempfile) do |row|
+        if row.include?(nil) || row.map(&:is_utf8?).include?(false)
+          @failed_count += 1
+          next
+        end
         p = ConfirmProject.new(:researcher_id => Researcher.find_or_create_by_lname(row[0]).id, :dept => row[1], :title => row[2], :agency => row[3])        
         unless p.title.nil? || p.title.empty?
           if p.save
             @count += 1
+          else
+            @failed_count += 1
           end
         end
       end

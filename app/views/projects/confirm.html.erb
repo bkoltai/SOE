@@ -1,5 +1,8 @@
 <h1>Confirm Projects Upload</h1>
 <p>There are <strong><%= @count %></strong> new projects to replace the current database.</p><br />
+<% if @failed_count != 0 %>
+<p class="error"><strong><%= @failed_count %></strong> projects failed to be uploaded. Failure may be caused by unknown characters or empty fields.</p>
+<% end %>
 <p>Please review and confirm the list of projects to replace the current project database. If fields are mixed up, check that the CSV entries are in the order:</p>
 <pre>name,dept,title,agency</pre>
 <br /><p>If individual entries need to be modified or removed, click confirm and then make the modifications from the main projects page.</p>
