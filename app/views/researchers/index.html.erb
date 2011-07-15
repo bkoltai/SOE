@@ -6,9 +6,9 @@
 	<br/><h3><%= link_to 'New Researcher', new_researcher_path %></h3>
 <% end %>
 <div id="researchers">
-  <p><%= paginate @researchers, :window => 3 %></p>
+  <%= paginate @researchers, :window => 3 %>
 	<%= render @researchers %>
-	<p><%= paginate @researchers, :window => 3 %></p>
+	<%= paginate @researchers, :window => 3 %>
 </div>
 <%= render	:partial => "shared/sidebar" %>
 <div class="clear"></div>
