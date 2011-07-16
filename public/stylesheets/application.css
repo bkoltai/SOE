@@ -360,12 +360,12 @@ th .desc {
 }
 
 .error_messages {
-  width: 400px;
-  border: 2px solid #CF0000;
+  border: 1px solid #CF0000;
   padding: 0px;
   padding-bottom: 12px;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+  color: red;
   font-size: 12px;
 }
 

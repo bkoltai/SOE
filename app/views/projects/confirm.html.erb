@@ -1,7 +1,22 @@
 <h1>Confirm Projects Upload</h1>
 <p>There are <strong><%= @count %></strong> new projects to replace the current database.</p><br />
 <% if @failed_count != 0 %>
-<p class="error"><strong><%= @failed_count %></strong> projects failed to be uploaded. Failure may be caused by unknown characters or empty fields.</p>
+  <div class="error_messages">
+    <p class="error"><strong><%= @failed_count %></strong> projects failed to be uploaded.</p>
+    <p>The following rows in the csv had the following problems:</p>
+    <% if !@failed_entries[:unrecognizable].empty? %>
+    <p>Unrecognizable characters: <%= @failed_entries[:unrecognizable] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:missing_title].empty? %>
+    <p>Missing title: <%= @failed_entries[:missing_title] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:missing_researcher].empty? %>
+    <p>Missing researcher: <%= @failed_entries[:missing_researcher] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:unknown_researcher].empty? %>
+    <p>Researchers not in database: <%= @failed_entries[:unknown_researcher] * ', ' %></p>
+    <% end %>
+  </div>
 <% end %>
 <p>Please review and confirm the list of projects to replace the current project database. If fields are mixed up, check that the CSV entries are in the order:</p>
 <pre>name,dept,title,agency</pre>

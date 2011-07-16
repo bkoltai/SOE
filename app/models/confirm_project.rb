@@ -6,7 +6,7 @@ class ConfirmProject < ActiveRecord::Base
   before_save :find_researcher
   
   validates_presence_of :title, :researcher_id
-  validates_length_of :title, :minimum => 5, :allow_blank => false
+  validates_length_of :title, :minimum => 2, :allow_blank => false
   
   def researcher_lname
     @researcher_lname || researcher.try(:lname)

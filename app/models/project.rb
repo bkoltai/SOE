@@ -1,5 +1,5 @@
 class Project < ActiveRecord::Base
-  validates_presence_of :title
+  validates_presence_of :title, :researcher
   
   belongs_to :researcher
   attr_writer :researcher_lname

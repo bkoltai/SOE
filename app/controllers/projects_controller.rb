@@ -103,19 +103,40 @@ class ProjectsController < ApplicationController
       ConfirmProject.destroy_all
       @count = 0
       @failed_count = 0
+      @failed_entries = {:unrecognizable => [], :missing_researcher => [], :missing_title => [], :unknown_researcher => []}
+      iteration = 1
       CSV.foreach(file.tempfile) do |row|
-        if row.include?(nil) || row.map(&:is_utf8?).include?(false)
+        failed = false
+        
+        # Check if all field are recognizable, a title exists, and a researcher is given
+        if !row.include?(nil)
+          unless row.reject(&:is_utf8?).empty?
+            failed = true
+            @failed_entries[:unrecognizable] << iteration
+          end
+        elsif row[0].nil?
+          failed = true
+          @failed_entries[:missing_researcher] << iteration
+        elsif row[2].nil?
+          failed = true
+          @failed_entries[:missing_title] << iteration
+        end 
+        
+        # Continue to next entry if row is not valid   
+        if failed
           @failed_count += 1
+          iteration += 1
           next
         end
+        
         p = ConfirmProject.new(:researcher_id => Researcher.find_or_create_by_lname(row[0]).id, :dept => row[1], :title => row[2], :agency => row[3])        
-        unless p.title.nil? || p.title.empty?
-          if p.save
-            @count += 1
-          else
-            @failed_count += 1
-          end
+        if p.save
+          @count += 1
+        else
+          @failed_entries[:unknown_researcher] |= [row[0]] # Only adds row[0] if not already included in array
+          @failed_count += 1          
         end
+        iteration += 1
       end
 
       respond_to do |format|
