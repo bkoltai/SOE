@@ -1,0 +1,1 @@
+mysqldump -u soeresearch -p -h mysql-user --compact --add-drop-table soeresearch researchers > /r/soeresearch/public_html/soeresearch/db/backups/mysql/researchers/researcher_backup_$(date "+%d-%m-%y").sql
