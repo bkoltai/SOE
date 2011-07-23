@@ -7,12 +7,13 @@ end
 group :development do
 	gem 'mysql2'
   gem "nifty-generators"
-  gem 'jquery-rails'
   gem 'ruby-debug19', :require => 'ruby-debug'
 end
 
+gem 'jquery-rails'
+
 gem 'rails', '3.0.3'
-gem 'formtastic'
+gem 'simple_form'
 gem 'meta_where'
 
 gem 'kaminari'

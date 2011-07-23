@@ -1,0 +1,30 @@
+<table>
+   <tr>
+     <th><%= sortable "fname", "First Name" %></th>
+     <th><%= sortable "lname", "Last Name" %></th>
+     <th><%= sortable "degree" %></th>
+     <th><%= sortable "dept" %></th>
+     <th><%= sortable "researcher_id", "Researcher" %></th>
+     <% if session[:user_id] %>
+       <th></th>
+       <th></th>
+       <th></th>
+       <% end %>
+
+   </tr>
+
+ <% @students.each do |student| %>
+   <tr>
+     <td><%= student.fname %></td>
+     <td><%= student.lname %></td>
+     <td><%= student.degree %></td>
+     <td><%= student.dept %></td>
+     <td><%= student.researcher.lname if student.researcher %></td>
+       <% if session[:user_id] %>
+       <td><%= link_to 'Show', student %></td>
+       <td><%= link_to 'Edit', edit_student_path(student) %></td>
+       <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>
+       <% end %>
+   </tr>
+ <% end %>
+</table>

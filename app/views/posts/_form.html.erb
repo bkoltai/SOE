@@ -1,45 +1,12 @@
-<%= form_for(@post) do |f| %>
-  <% if @post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
-
-      <ul>
-      <% @post.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-<%= raise "Fix check box" %>
-  <div class="field" id="external">
-    <%= f.label :external, "External link" %><br />
-    <%= f.check_box :external, :onclick => 'toggleFields()', :checked  => false %>
-  </div>
-  <div class="field" id="title">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </div>
-  <div class="field" id="pub_date">
-    <%= f.label :pub_date, "Publication date (yyyy-mm-dd)" %><br />
-    <%= f.text_field :pub_date %>
-  </div>
-  <div class="field" id="abstract">
-    <%= f.label :abstract %><br />
-    <%= f.text_area :abstract, :rows => 5, :cols => 30 %>
-  </div>
-  <div class="field" id="link">
-    <%= f.label :link %><br />
-    <%= f.text_field :link %>
-  </div>
-  <div class="field" id="post_content">
-    <%= f.label :content %><br />
-    <%= f.text_area :content %>
-  </div>
-  <div class="field" id="tags">
-    <%= f.label :tags %><br />
-    <%= f.text_field :tags %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<%= simple_form_for(@post) do |f| %>
+  <%= f.errors %>
+  <%= raise "Fix check box" %>
+  <%= f.input :external, :label => "External link" %>
+  <%= f.input :title %>
+  <%= f.input :pub_date, :label => "Publication date" %>
+  <%= f.input :abstract %>
+  <%= f.input :link %>
+  <%= f.input :content %>
+  <%= f.input :tags %>
+  <%= f.submit %>
 <% end %>

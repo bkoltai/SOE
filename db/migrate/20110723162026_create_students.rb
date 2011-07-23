@@ -1,15 +1,13 @@
 class CreateStudents < ActiveRecord::Migration
   def self.up
     create_table :students do |t|
-      t.string :dept
-      t.text :fname
-      t.text :lname
+      t.string :fname
+      t.string :lname
+      t.string :email
       t.string :degree
-      t.string :advisor_fname
-      t.string :advisor_lname
-      t.text :research
-      t.string :link
-      t.string :photo
+      t.string :proj_title
+      t.string :dept
+      t.integer :researcher_id
 
       t.timestamps
     end

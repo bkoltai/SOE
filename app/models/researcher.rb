@@ -1,5 +1,7 @@
 class Researcher < ActiveRecord::Base
   has_many :projects
+  has_many :students
+  
   has_and_belongs_to_many :centers
   
   validates_presence_of :dept, :fname, :lname, :email, :phone, :description
@@ -25,5 +27,9 @@ class Researcher < ActiveRecord::Base
     else
       scoped
     end
+  end
+  
+  def full_name
+    "#{lname}, #{fname}"
   end
 end

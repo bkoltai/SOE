@@ -4,8 +4,6 @@ class ProjectsController < ApplicationController
   
   helper_method :sort_column, :sort_direction  
 
-   # GET /projects
-   # GET /projects.xml
    def index
      params[:sort]
      @projects = Project.order(sort_column + " " + sort_direction)

@@ -4,6 +4,7 @@
 	<li><%= link_to "Faculty", researchers_path %></li>
 	<li><%= link_to "Calendar", :controller => 'home', :action => 'calendar'%></li>
 	<li><%= link_to "Projects", projects_path %></li>
+	<li><%= link_to "Students", students_path %></li>
 	<% if session[:user_id] %> 
 		<li><%= button_to 'Logout', logout_path, :method => :delete, :id =>"logout_button" %></li>
 		<li><%= link_to "Admin", admin_path %></li>

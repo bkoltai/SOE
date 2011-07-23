@@ -1,39 +1,17 @@
 <% @title = "Students" %>
 
-<h1>Students</h1>
+<h1>Current Research Students</h1>
 
-<table>
-  <tr>
-    <th>Dept</th>
-    <th>First name</th>
-    <th>Last name</th>
-    <th>Degree</th>
-    <th>Advisor</th>
-    <th>Research</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @students.each do |student| %>
-  <tr>
-    <td><%= student.dept %></td>
-    <td><%= student.fname %></td>
-    <td><%= student.lname %></td>
-    <td><%= student.degree %></td>
-    <td><%= student.advisor_fname + " " + student.advisor_lname %></td>
-    <td><%= student.research %></td>
-    <td><%= student.link %></td>
-    <td><%= student.photo %></td>
-	<% if session[:user_id] %>
-    <td><%= link_to 'Show', student %></td>
-    <td><%= link_to 'Edit', edit_student_path(student) %></td>
-    <td><%= link_to 'Destroy', student, :confirm => 'Are you sure?', :method => :delete %></td>
-	<% end %>
-  </tr>
+<% if session[:user_id] %>
+  <h3><%= link_to 'New Student', new_student_path %></h3>
+  <br/><h3><%= link_to 'Upload project CSV', upload_students_path %></h3>
 <% end %>
-</table>
+
+<div id='students'>
+  <%= render 'students' %>
+</div>
 
 <br />
-
-<%= link_to 'New Student', new_student_path %>
+<% if session[:user_id] %>
+        <%= link_to 'New Student', new_student_path %>
+<% end %>

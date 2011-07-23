@@ -1,31 +1,8 @@
-<%= semantic_form_for(@project) do |f| %>
-  <% if @project.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@project.errors.count, "error") %> prohibited this project from being saved:</h2>
-
-      <ul>
-      <% @project.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-  <% f.inputs do %>
-    <%= f.input :title, :input_html => {  :size => 40} %>
-    <%= f.input :agency, :input_html => {  :size => 40} %>
-    <%= f.input :dept, :input_html => {  :size => 40} %>
-    <%= f.input :researcher_lname, :input_html => {  :size => 40}, :label => "Researcher Lastname" %>
-  <% end %>
-  
-  <%= f.submit "Submit", :disable_with => "Please wait..." %>  
-
+<%= simple_form_for(@project) do |f| %>
+  <%= f.error_messages %>
+  <%= f.input :title, :input_html => {  :size => 40} %>
+  <%= f.input :agency, :input_html => {  :size => 40} %>
+  <%= f.input :dept, :input_html => {  :size => 40} %>
+  <%= f.association :researcher, :collection => Researcher.all(:order => :lname), :label_method => :full_name, :prompt => "Choose a researcher" %>
+  <%= f.submit %>  
 <% end %>
-
-<% content_for :javascript do %>
-  $(document).ready(function() {
-    $("input#project_researcher_lname").autocomplete({
-      source: <%= Researcher.lnames.to_json.html_safe %>
-    });
-  });
-<% end %>
-  

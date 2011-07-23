@@ -1,53 +1,11 @@
-<%= form_for(@student) do |f| %>
-  <% if @student.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@student.errors.count, "error") %> prohibited this student from being saved:</h2>
-
-      <ul>
-      <% @student.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :dept %><br />
-    <%= f.text_field :dept %>
-  </div>
-  <div class="field">
-    <%= f.label :fname %><br />
-    <%= f.text_area :fname %>
-  </div>
-  <div class="field">
-    <%= f.label :lname %><br />
-    <%= f.text_area :lname %>
-  </div>
-  <div class="field">
-    <%= f.label :degree %><br />
-    <%= f.text_field :degree %>
-  </div>
-  <div class="field">
-    <%= f.label :advisor_fname %><br />
-    <%= f.text_field :advisor_fname %>
-  </div>
-  <div class="field">
-    <%= f.label :advisor_lname %><br />
-    <%= f.text_field :advisor_lname %>
-  </div>
-  <div class="field">
-    <%= f.label :research %><br />
-    <%= f.text_area :research %>
-  </div>
-  <div class="field">
-    <%= f.label :link %><br />
-    <%= f.text_field :link %>
-  </div>
-  <div class="field">
-    <%= f.label :photo %><br />
-    <%= f.text_field :photo %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+<%= simple_form_for(@student) do |f| %>
+  <%= f.error_messages %>
+  <%= f.input :fname, :label => "First Name" %>
+  <%= f.input :lname, :label => "Last Name" %>
+  <%= f.input :email %>
+  <%= f.input :degree %>
+  <%= f.input :dept %>
+  <%= f.input :proj_title, :label => "Project Title" %>
+  <%= f.association :researcher, :collection => Researcher.all(:order => :lname), :label_method => :full_name, :prompt => "Choose a researcher"  %>
+  <%= f.submit %>
 <% end %>

@@ -1,23 +1,17 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  dept: MyString
-  fname: MyText
-  lname: MyText
+  fname: MyString
+  lname: MyString
+  email: MyString
   degree: MyString
-  advisor_fname: MyString
-  advisor_lname: MyString
-  research: MyText
-  link: MyString
-  photo: MyString
+  proj_title: MyString
+  dept: MyString
 
 two:
-  dept: MyString
-  fname: MyText
-  lname: MyText
+  fname: MyString
+  lname: MyString
+  email: MyString
   degree: MyString
-  advisor_fname: MyString
-  advisor_lname: MyString
-  research: MyText
-  link: MyString
-  photo: MyString
+  proj_title: MyString
+  dept: MyString

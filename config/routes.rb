@@ -3,6 +3,11 @@ NEWSoeresearchDev::Application.routes.draw do
     get :upload, :on => :collection
     post :confirm, :on => :collection 
   end
+  
+  resources :students do
+    get :upload, :on => :collection
+    post :confirm, :on => :collection 
+  end
 
   resources :centers
 

@@ -9,5 +9,5 @@ $(function(){
 
 
 function showProjects(){
-  $(this).next().toggle();
+  $(this).next().slideToggle();
 }

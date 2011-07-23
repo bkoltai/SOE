@@ -2,8 +2,8 @@ class Project < ActiveRecord::Base
   validates_presence_of :title, :researcher
   
   belongs_to :researcher
-  attr_writer :researcher_lname
-  before_save :find_researcher
+  # attr_writer :researcher_lname
+  # before_save :find_researcher
   
   def researcher_lname
     @researcher_lname || researcher.try(:lname)

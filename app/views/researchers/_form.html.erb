@@ -1,17 +1,13 @@
-<%= semantic_form_for(@researcher) do |f| %>
-
-  <% f.inputs do %>
-	  <%= f.input :dept, :input_html => {  :size => 40, :maxlength => 10} %>
-	  <%= f.input :centers, :as => :check_boxes, :collection => Center.all.map {|c| [c.abbreviation, c.id] } %>
-	  <%= f.input :recent %>
-	  <%= f.input :fname, :input_html => {  :size => 40} %>
-	  <%= f.input :lname, :input_html => {  :size => 40} %>
-	  <%= f.input :email, :input_html => {  :size => 40} %>
-	  <%= f.input :phone, :input_html => {  :size => 40} %>
-	  <%= f.input :description, :input_html => {  :cols => 40, :rows => 5} %>
-	  <%= f.input :link, :input_html => {  :size => 80} %>
-	  <%= f.input :photo, :input_html => {  :size => 80} %>
-	<% end %>
-	
-	<%= f.buttons %>
+<%= simple_form_for(@researcher) do |f| %>
+  <%= f.input :fname, :label => "First Name", :input_html => {  :size => 40} %>
+  <%= f.input :lname, :label => "Last Name", :input_html => {  :size => 40} %>
+  <%= f.input :recent %>
+  <%= f.input :dept, :input_html => {  :size => 40, :maxlength => 10} %>
+  <%= f.association :centers, :as => :check_boxes %>
+  <%= f.input :email, :input_html => {  :size => 40} %>
+  <%= f.input :phone, :input_html => {  :size => 40} %>
+  <%= f.input :description, :input_html => {  :cols => 40, :rows => 5} %>
+  <%= f.input :link, :input_html => {  :size => 80} %>
+  <%= f.input :photo, :input_html => {  :size => 80} %>
+	<%= f.submit %>
 <% end %>

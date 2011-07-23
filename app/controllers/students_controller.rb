@@ -1,6 +1,7 @@
 class StudentsController < ApplicationController
   skip_before_filter :authorize, :only => [ :index, :show ]
   
+  helper_method :sort_column, :sort_direction  
   
   # GET /students
   # GET /students.xml
@@ -82,5 +83,13 @@ class StudentsController < ApplicationController
       format.html { redirect_to(students_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  def sort_column
+    Student.column_names.include?(params[:sort]) ? params[:sort] : "lname"
+  end
+
+  def sort_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
   end
 end
