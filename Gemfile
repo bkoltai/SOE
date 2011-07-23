@@ -5,9 +5,9 @@ group :production do
 end
 
 group :development do
-	gem 'mysql2'
+	gem 'mysql2', '0.2.6'
   gem "nifty-generators"
-  gem 'ruby-debug19', :require => 'ruby-debug'
+  # gem 'ruby-debug19', :require => 'ruby-debug'
 end
 
 gem 'jquery-rails'
