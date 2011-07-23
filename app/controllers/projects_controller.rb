@@ -5,8 +5,12 @@ class ProjectsController < ApplicationController
   helper_method :sort_column, :sort_direction  
 
    def index
-     params[:sort]
-     @projects = Project.order(sort_column + " " + sort_direction)
+     if sort_column == "researcher_id"
+       @projects = Project.all.sort_by {|p| p.researcher.lname}
+       @projects.reverse! if sort_direction == "desc"
+     else
+       @projects = Project.order(sort_column + " " + sort_direction)
+     end
 
      respond_to do |format|
        format.html # index.html.erb

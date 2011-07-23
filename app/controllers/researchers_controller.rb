@@ -124,7 +124,7 @@ class ResearchersController < ApplicationController
   
   private
   def sort_column
-    Researcher.column_names.include?(params[:sort]) ? params[:sort] : "fname"
+    Researcher.column_names.include?(params[:sort]) ? params[:sort] : "lname"
   end
   
   def sort_direction
