@@ -11,12 +11,6 @@ class ProjectsController < ApplicationController
      else
        @projects = Project.order(sort_column + " " + sort_direction)
      end
-
-     respond_to do |format|
-       format.html # index.html.erb
-       format.js
-       format.xml  { render :xml => @projects }
-     end
    end
 
   # GET /projects/1

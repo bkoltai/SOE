@@ -1,0 +1,12 @@
+<h1>Upload students</h1>
+
+<div id="upload">
+<p>Pick a CSV to upload. The CSV must use commas to separate fields and newlines to separate entries. The accepted fields for a student are researcher's last name, department, full name, email, degree, and project title. These fields should appear in order. An example is:</p>
+<pre>Kaplan,BME,John Doe,John.Doe@tufts.edu,Ph.D.,Name of Project
+Chang,CS,Jane Doe,Jane.Doe@tufts.edu,BS,Another of Project</pre>
+  <p><strong>ALSO NOTE:</strong> Uploading a new CSV will delete ALL current students in the database.</p>
+
+<%= render 'upload' %>
+</div>
+
+<%= link_to 'Back', students_path %>

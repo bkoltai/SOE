@@ -22,6 +22,6 @@ class Project < ActiveRecord::Base
   end
   
   def self.create_from_confirm_project(project)
-    create(:researcher_id => project.researcher_id, :title => project.title, :agency => project.agency, :dept => project.dept)
+    create(project.attributes)
   end
 end

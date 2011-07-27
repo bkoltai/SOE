@@ -1,0 +1,56 @@
+<h1>Confirm Students Upload</h1>
+<p>There are <strong><%= @count %></strong> new students to replace the current database.</p><br />
+<% if @failed_count != 0 %>
+  <div class="error_messages">
+    <p class="error"><strong><%= @failed_count %></strong> students failed to be uploaded.</p>
+    <p>The following rows in the csv had the following problems:</p>
+    <% if !@failed_entries[:unrecognizable].empty? %>
+    <p>Unrecognizable characters: <%= @failed_entries[:unrecognizable] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:missing_researcher].empty? %>
+    <p>Missing researcher: <%= @failed_entries[:missing_researcher] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:missing_full_name].empty? %>
+    <p>Missing full name: <%= @failed_entries[:missing_full_name] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:missing_department].empty? %>
+    <p>Missing full name: <%= @failed_entries[:missing_department] * ', ' %></p>
+    <% end %>
+    <% if !@failed_entries[:unknown_researcher].empty? %>
+    <p>Researchers not in database: <%= @failed_entries[:unknown_researcher] * ', ' %></p>
+    <% end %>
+  </div>
+<% end %>
+<p>Please review and confirm the list of students to replace the current student database. If fields are mixed up, check that the CSV entries are in the order:</p>
+<pre>researcher,dept,first last,email,degree,project title</pre>
+<br /><p>If individual entries need to be modified or removed, click confirm and then make the modifications from the main students page.</p>
+<br />
+
+<%= button_to "Confirm", :action => :confirm %>
+<%= button_to "Cancel", upload_students_path, {:method => :get} %>
+<div class="clear"></div>
+<%=  %>
+
+<table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Department</th>
+      <th>Researcher</th>
+      <th>Degree</th>
+      <th>Project Title</th>
+      <th></th>
+    </tr>
+  <% ConfirmStudent.all.each do |student| %>
+    <tr>
+      <td><%= student.fname %></td>
+      <td><%= student.lname %></td>
+      <td><%= student.email %></td>
+      <td><%= student.dept %></td>
+      <td><%= student.researcher.lname if student.researcher %></td>
+      <td><%= student.degree %></td>
+      <td><%= student.proj_title %></td>
+    </tr>
+  <% end %>
+</table>
