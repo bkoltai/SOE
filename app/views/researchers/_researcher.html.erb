@@ -15,9 +15,19 @@
     	<%= link_to 'Destroy', researcher, :confirm => 'Are you sure?', :method => :delete %></p>
 	<% end %>
 	<% if !researcher.projects.empty? %>
-	<%= link_to_function "Show/Hide Projects", :class => 'toggle_projects' %>
+	<%= link_to_function "Show Projects", :class => 'toggle_projects' %>
+	<% end %>
+	<% if !researcher.students.empty? %>
+	<%= link_to_function "Show Students", :class => 'toggle_students' %>
+	<% end %>
+	<% if !researcher.projects.empty? %>
 	<div class="researcherProjects" style="display: none;">
 		<ul><%= render researcher.projects %></ul>
+	</div>
+	<% end %>
+	<% if !researcher.students.empty? %>
+	<div class="researcherStudents" style="display: none;">
+		<ul><%= render researcher.students %></ul>
 	</div>
 	<% end %>		
 </div>
