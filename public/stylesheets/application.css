@@ -52,8 +52,8 @@ div#content{
 
 ul{
 	text-decoration: none;
-	list-style: none;
-	display: inline;
+	list-style: disc outside none;
+	padding-left: 20px;
 }
 
 .clear {
