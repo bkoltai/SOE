@@ -51,6 +51,14 @@ div#content{
 }
 
 ul{
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.bullets{
+  display: block;
 	text-decoration: none;
 	list-style: disc outside none;
 	padding-left: 20px;

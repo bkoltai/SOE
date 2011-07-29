@@ -1,12 +1,22 @@
 class Project < ActiveRecord::Base
   validates_presence_of :title, :researcher
   
+  has_attached_file :abstract
+  
   belongs_to :researcher
-  # attr_writer :researcher_lname
-  # before_save :find_researcher
+  
+  attr_accessor :remove_attachment
   
   def researcher_lname
     @researcher_lname || researcher.try(:lname)
+  end
+  
+  def has_attachment?
+    !abstract_file_name.nil?
+  end
+  
+  def remove_attachment
+    self.abstract = nil
   end
   
   def self.search(search)

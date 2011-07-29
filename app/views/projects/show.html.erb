@@ -1,6 +1,6 @@
 <p>
   <b>Title:</b>
-  <%= @project.title %>
+  <%= link_to_if @project.has_attachment?, @project.title, @project.abstract.url %>
 </p>
 
 <p>

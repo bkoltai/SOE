@@ -7,7 +7,7 @@
 		   <%= researcher_centers(researcher) %></h2>
 		<p><%= mail_to researcher.email %></p>
 		<p>617-62<%= researcher.phone %></p>
-		<p>Researcher Interests: <%= researcher.description %></p>
+		<p class="researcher-interests">Researcher Interests: <%= researcher.description %></p>
 	</div>
 	<% if session[:user_id] %>
     	<p><%= link_to 'Show', researcher %>
@@ -22,7 +22,7 @@
 	<% end %>
 	<% if !researcher.projects.empty? %>
 	<div class="researcherProjects" style="display: none;">
-		<ul><%= render researcher.projects %></ul>
+		<ul class="bullets"><%= render researcher.projects %></ul>
 	</div>
 	<% end %>
 	<% if !researcher.students.empty? %>

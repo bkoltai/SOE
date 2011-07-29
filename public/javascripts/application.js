@@ -10,6 +10,15 @@ $(function(){
     $.getScript(this.href);
     return false;
   });
+  
+  $('.researcher-interests').jTruncate({  
+         length: 100,  
+         minTrail: 0,  
+         moreText: "more",  
+         lessText: "less",  
+         ellipsisText: " ...",  
+         moreAni: "fast"
+     });
 });
 
 function showProjects(){

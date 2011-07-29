@@ -1,1 +1,1 @@
-<li><%= project.title %></li>
+<li><%= link_to_if project.has_attachment?, project.title, project.abstract.url %></li>

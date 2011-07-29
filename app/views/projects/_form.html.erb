@@ -1,8 +1,13 @@
-<%= simple_form_for(@project) do |f| %>
+<%= simple_form_for @project, :html => {:multipart => true} do |f| %>
   <%= f.error_messages %>
   <%= f.input :title, :input_html => {  :size => 40} %>
   <%= f.input :agency, :input_html => {  :size => 40} %>
   <%= f.input :dept, :input_html => {  :size => 40} %>
   <%= f.association :researcher, :collection => Researcher.all(:order => :lname), :label_method => :full_name, :prompt => "Choose a researcher" %>
+	<% if @project.has_attachment? %>
+	<p style="margin-left: 80px;">Click <%= link_to "here", @project.abstract.url %> for the project's current attachment </p><br />
+	<%= f.input :remove_attachment, :as => :boolean %>
+	<% end %>
+	<%= f.input :abstract, :as => :file %>
   <%= f.submit %>  
 <% end %>

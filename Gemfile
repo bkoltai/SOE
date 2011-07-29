@@ -19,6 +19,7 @@ gem 'meta_where'
 gem 'kaminari'
 gem 'nokogiri'
 gem 'hirb'
+gem 'paperclip', "~> 2.3"
 
 
 # Deploy with Capistrano

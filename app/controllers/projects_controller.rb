@@ -58,7 +58,6 @@ class ProjectsController < ApplicationController
   # POST /projects
   # POST /projects.xml
   def create
-    # raise params[:file][:file].inspect
     if params[:file]
       upload_project_csv(params[:file][:file])
     else
@@ -70,7 +69,7 @@ class ProjectsController < ApplicationController
   # PUT /projects/1.xml
   def update
     @project = Project.find(params[:id])
-
+    @project.remove_attachment if params[:project][:remove_attachment]
     respond_to do |format|
       if @project.update_attributes(params[:project])
         format.html { redirect_to(@project, :notice => 'Project was successfully updated.') }
